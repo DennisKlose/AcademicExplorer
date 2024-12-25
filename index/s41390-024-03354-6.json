@@ -1,0 +1,64 @@
+{
+  "title": "Epigenetic signature of very low birth weight in young adult life",
+  "authors": [
+    "Juho Kuula",
+    "Darina Czamara",
+    "Helena Hauta-alus",
+    "Jari Lahti",
+    "Petteri Hovi",
+    "Maija E. Miettinen",
+    "Justiina Ronkainen",
+    "Johan G. Eriksson",
+    "Sture Andersson",
+    "Marjo-Riitta Järvelin",
+    "Sylvain Sebert",
+    "Katri Räikkönen",
+    "Elisabeth B. Binder",
+    "Eero Kajantie"
+  ],
+  "affiliations": [
+    "Population Health Research, Finnish Institute for Health and Welfare, Helsinki, Finland",
+    "HUS Medical Imaging Center, Department of Radiology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland",
+    "Department of Translational Research in Psychiatry, Max-Planck-Institute of Psychiatry, Munich, Germany",
+    "PEDEGO Research Unit, MRC Oulu, Oulu University Hospital and University of Oulu, Oulu, Finland",
+    "Children's Hospital, Pediatric Research Center, University of Helsinki and Helsinki University Hospital, Helsinki, Finland",
+    "Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, University of Helsinki, Helsinki, Finland",
+    "Department of Psychology and Logopedics, University of Helsinki, Helsinki, Finland",
+    "Center for Life Course Health Research, University of Oulu, Oulu, Finland",
+    "Folkhälsan Research Centre, Helsinki, Finland",
+    "Singapore Institute for Clinical Sciences, Agency for Science, Technology and Research, Singapore, Singapore",
+    "Singapore Institute for Clinical Sciences, Agency for Science, Technology and Research, Singapore, Singapore",
+    "Department of Obstetrics & Gynaecology and Human Potential Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+    "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK",
+    "Clinical Medicine Research Unit, University of Oulu, Oulu, Finland",
+    "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway"
+  ],
+  "background": "Adults born preterm at very low birth weight are at increased risk for various health conditions, potentially mediated by epigenetic regulation.",
+  "hypotheses": [
+    "There are blood DNAm differences between young adults born preterm at VLBW and term controls.",
+    "Some of these differences may be seen in unrelated cohorts of varying ages when investigating birth weight as the exposure.",
+    "Some of the differences in DNAm may be related to secondary birth exposures."
+  ],
+  "major_findings": [
+    "Sixty-six CpG sites were differentially methylated between VLBW adults and controls in the discovery cohort.",
+    "Five CpG sites near GLI2 were hypermethylated in VLBW individuals and associated with lower birth weight in a meta-analysis of four independent cohorts.",
+    "Exploratory analyses in two independent cohorts revealed additional differentially methylated CpG sites associated with secondary exposures such as preterm birth and SGA."
+  ],
+  "sample_types": [
+    "Peripheral venous blood",
+    "Cord blood"
+  ],
+  "methods": [
+    "DNA extraction",
+    "Illumina Infinium Human Methylation450 BeadChip",
+    "Functional normalization",
+    "Combat batch correction",
+    "Linear regression",
+    "Meta-analysis"
+  ],
+  "journal": "Pediatric Research",
+  "date_received": "14-07-23",
+  "date_revised": "01-05-24",
+  "date_accepted": "04-06-24",
+  "date_published": "19-06-24"
+}

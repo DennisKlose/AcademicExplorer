@@ -1,0 +1,52 @@
+{
+  "title": "Brain age prediction and deviations from normative trajectories in the neonatal connectome",
+  "authors": [
+    "Huili Sun",
+    "Saloni Mehta",
+    "Milana Khaitova",
+    "Bin Cheng",
+    "Xuejun Hao",
+    "Marisa Spann",
+    "Dustin Scheinost"
+  ],
+  "affiliations": [
+    "Department of Biomedical Engineering, Yale University, New Haven, CT, USA",
+    "Department of Radiology & Biomedical Imaging, Yale School of Medicine, New Haven, CT, USA",
+    "Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA",
+    "New York State Psychiatric Institute, New York, NY, USA",
+    "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University, New York, NY, USA",
+    "Department of Statistics & Data Science, Yale University, New Haven, CT, USA",
+    "Child Study Center, Yale School of Medicine, New Haven, CT, USA",
+    "Wu Tsai Institute, Yale University, New Haven, CT, USA"
+  ],
+  "background": "The human connectome undergoes rapid changes during the perinatal period, and a better understanding of these developmental trajectories is needed.",
+  "hypotheses": [
+    "How do structural and functional connectomes mature during the perinatal period?",
+    "How correlated is structural and functional development at this age?",
+    "How do individual canonical brain networks mature in distinctive patterns after birth?",
+    "How do perinatal maternal exposures alter normative development (e.g., BAGs)?",
+    "How do BAGs in infants predict toddler cognition and behavior?"
+  ],
+  "major_findings": [
+    "Structural and functional connectomes accurately predicted postmenstrual age (PMA) for term and preterm infants.",
+    "Predicted ages from each modality were correlated, and nearly all canonical brain networks generated accurate PMA prediction.",
+    "Brain age gaps (BAGs) were associated with perinatal exposures and toddler behavioral outcomes."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "resting-state fMRI",
+    "DTI",
+    "connectome-based predictive modeling (CPM)",
+    "support vector regression (SVR)",
+    "10-fold cross-validation",
+    "Pearson's correlation",
+    "linear regression"
+  ],
+  "journal": "Nature Communications",
+  "date_received": "15-05-24",
+  "date_revised": "NA",
+  "date_accepted": "13-11-24",
+  "date_published": "26-11-24"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Crossing epigenetic frontiers: the intersection of novel histone modifications and diseases",
+  "authors": [
+    "Weiyi Yao",
+    "Xinting Hu",
+    "Xin Wang"
+  ],
+  "affiliations": [
+    "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong 250021, China",
+    "Department of Hematology, Shandong Provincial Hospital, Shandong University, Jinan, Shandong 250021, China",
+    "Taishan Scholars Program of Shandong Province, Jinan, Shandong 250021, China"
+  ],
+  "background": "Histone post-translational modifications (HPTMs) are crucial for epigenetic regulation and are increasingly implicated in various diseases, prompting research into novel HPTMs and their therapeutic potential.",
+  "hypotheses": [
+    "Do novel histone modifications play significant roles in the development and progression of various diseases?",
+    "Can novel HPTM inhibitors be developed as effective therapeutic agents for multiple diseases?",
+    "What are the key biological functions of novel HPTMs in transcription, replication, DNA repair, and recombination?",
+    "How do novel HPTMs influence cellular metabolism and its association with disease pathogenesis?"
+  ],
+  "major_findings": [
+    "Nine novel histone modifications (lactylation, citrullination, crotonylation, succinylation, SUMOylation, propionylation, butyrylation, 2-hydroxyisobutyrylation, and 2-hydroxybutyrylation) were comprehensively reviewed.",
+    "These novel HPTMs are involved in various cellular processes, including transcription, replication, DNA repair, and metabolism, and their dysregulation is associated with the development and progression of various diseases.",
+    "Novel HPTM inhibitors targeting various targets and their emerging strategies in the treatment of multiple diseases were discussed.",
+    "Novel epigenetic research techniques and their applications in the field of novel HPTM research were briefly introduced."
+  ],
+  "sample_types": [
+    "human",
+    "mouse",
+    "zebrafish",
+    "yeast",
+    "cells lines"
+  ],
+  "methods": [
+    "high-resolution mass spectrometry (HRMS)",
+    "proteomics",
+    "bioinformatics",
+    "immunohistochemistry",
+    "ChIP-seq",
+    "CUT&Tag",
+    "CUT&RUN",
+    "ACT-seq",
+    "scChIX-seq",
+    "TGS",
+    "LC-MS/MS",
+    "MALDI-MS Imaging"
+  ],
+  "journal": "Signal Transduction and Targeted Therapy",
+  "date_received": "28-02-24",
+  "date_revised": "11-06-24",
+  "date_accepted": "30-06-24",
+  "date_published": "16-09-24"
+}

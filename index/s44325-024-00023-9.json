@@ -1,0 +1,57 @@
+{
+  "title": "Cardiovascular health (Life's Essential 8), risk of depression and anxiety: a prospective cohort study",
+  "authors": [
+    "Shuzhen Liu",
+    "Xiangju Hu",
+    "Meijie Jiang",
+    "Ninghao Huang",
+    "Hailun Liang",
+    "Ruimao Zheng",
+    "Shuyan Wang",
+    "Jian Qin",
+    "Zhiyong Zhang",
+    "Tao Huang",
+    "Xu Gao"
+  ],
+  "affiliations": [
+    "Department of Occupational and Environmental Health Sciences, School of Public Health, Peking University, Beijing, China",
+    "Department for Chronic and Noncommunicable Disease Control and Prevention, Fujian Provincial Center for Disease Control and Prevention, Fuzhou, Fujian, China",
+    "Department of Epidemiology and Biostatistics, School of Public Health, Peking University, Beijing, China",
+    "School of Public Administration and Policy, Renmin University of China, Beijing, China",
+    "Department of Anatomy, Histology and Embryology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China",
+    "Neuroscience Research Institute, Peking University, Beijing, China",
+    "Key Laboratory for Neuroscience of Ministry of Education, Beijing, China",
+    "Key Laboratory for Neuroscience of National Health Commission, Beijing, China",
+    "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
+    "Department of Environmental and Occupational Health, Guangxi Medical University, Nanning, China",
+    "School of Public Health, Guilin Medical University, Guilin, Guangxi Zhuang Autonomous Region, China",
+    "Key Laboratory of Epidemiology of Major Diseases (Peking University), Ministry of Education, Beijing, China",
+    "Center for Healthy Aging, Peking University Health Science Center, Beijing, China",
+    "Peking University Institute of Environmental Medicine, Beijing, China"
+  ],
+  "background": "There is growing interest in the linkage of cardiovascular health (CVH) with depression/anxiety, but evidence on the 'Life's Essential 8' CVH score is scarce.",
+  "hypotheses": [
+    "The updated CVH score could act as a better predictor for the CVD-related risks of late-life depression and/or anxiety.",
+    "Genetic predisposition of depression/anxiety could modify the relationships between CVH and incident depression/anxiety."
+  ],
+  "major_findings": [
+    "A 100-point decrease in CVH score was associated with an increased risk of incident either disorder, depression, and anxiety.",
+    "Poor CVH is a risk factor for incident late-life depression/anxiety symptoms in middle-aged and older adults, and healthy behaviors could be targeted for risk assessment and intervention."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "prospective cohort study",
+    "linear regression",
+    "logistic regression",
+    "Cox proportional hazards models",
+    "restricted cubic spline regression",
+    "competing risk regression model"
+  ],
+  "journal": "npj Cardiovascular Health",
+  "date_received": "22-04-24",
+  "date_revised": "27-08-24",
+  "date_accepted": "NA",
+  "date_published": "13-09-24"
+}

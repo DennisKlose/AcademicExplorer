@@ -1,0 +1,70 @@
+{
+  "title": "Association between maternal perinatal stress and depression and infant DNA methylation in the first year of life",
+  "authors": [
+    "Sarina Abrishamcar",
+    "Beryl C. Zhuang",
+    "Mara Thomas",
+    "Nicole Gladish",
+    "Julia L. Maclsaac",
+    "Meaghan J. Jones",
+    "Elinor Simons",
+    "Theo J. Moraes",
+    "Piush J. Mandhane",
+    "Jeffrey R. Brook",
+    "Padmaja Subbarao",
+    "Stuart E. Turvey",
+    "Edith Chen",
+    "Gregory E. Miller",
+    "Michael S. Kobor",
+    "Anke Hüls"
+  ],
+  "affiliations": [
+    "Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, GA, USA",
+    "Department of Medical Genetics, University of British Columbia, Vancouver, BC, Canada",
+    "BC Children's Hospital Research Institute, Vancouver, BC, Canada",
+    "Edwin S.H. Leong Centre for Healthy Aging, Vancouver, BC, Canada",
+    "Department of Epidemiology and Population Health, School of Medicine, Stanford University, Palo Alto, CA, USA",
+    "Department of Biochemistry and Medical Genetics, University of Manitoba, Winnipeg, MB, Canada",
+    "Children's Hospital Research Institute of Manitoba, Winnipeg, MB, Canada",
+    "Department of Pediatrics and Child Health, University of Manitoba, Winnipeg, MB, Canada",
+    "Division of Respiratory Medicine, Department of Pediatrics, Hospital for Sick Children & Research Institute, Toronto, ON, Canada",
+    "Department of Pediatrics, University of Alberta, Edmonton, AB, Canada",
+    "Faculty of Medicine and Health Sciences, UCSI University, Kuala Lumpur, Malaysia",
+    "Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada",
+    "Department of Physiology, University of Toronto, Toronto, ON, Canada",
+    "Department of Pediatrics, BC Children's Hospital, The University of British Columbia, Vancouver, BC, Canada",
+    "Department of Psychology, Northwestern University, Evanston, IL, USA",
+    "Institute for Policy Research, Northwestern University, Evanston, IL, USA",
+    "Gangarosa Department of Environmental Health, Rollins School of Public Health, Emory University, Atlanta, GA, USA",
+    "Department of Biostatistics and Bioinformatics, Rollins School of Public Health, Emory University, Atlanta, GA, USA"
+  ],
+  "background": "Maternal stress and depression during pregnancy and infancy are associated with adverse child health outcomes and altered DNA methylation, but the biological mechanisms are unclear.",
+  "hypotheses": [
+    "Prenatal stress and depression are associated with differences in newborn cord blood mononuclear cell DNA methylation.",
+    "Postnatal stress and depression are associated with differences in infant peripheral blood mononuclear cell DNA methylation at 12 months of age.",
+    "The cumulative effect of prenatal and postnatal adversity influences infant DNA methylation."
+  ],
+  "major_findings": [
+    "Prenatal stress was associated with differential DNA methylation at 8 CpG sites in newborns, and prenatal depression at 2 CpG sites.",
+    "Postnatal stress was associated with differential DNA methylation at 8 CpG sites in 12-month-olds, and postnatal depression at 11 CpG sites.",
+    "Composite prenatal and postnatal adversity scores identified additional CpG sites associated with differential DNA methylation, suggesting a cumulative effect of maternal mental health on the infant epigenome.",
+    "Several associated genes (PLAGL1, HYMAI, BRD2, and ERC2) have been implicated in adverse fetal outcomes and neuropsychiatric disorders."
+  ],
+  "sample_types": [
+    "Human cord blood mononuclear cells (CBMC)",
+    "Human peripheral blood mononuclear cells (PBMC)"
+  ],
+  "methods": [
+    "Epigenome-wide association studies (EWAS)",
+    "Illumina Infinium HumanMethylation450 BeadChip (450K) array",
+    "Robust linear regression",
+    "Bias adjustment (bacon and cate methods)",
+    "Functional enrichment analysis",
+    "Methylation quantitative trait loci (mQTL) mapping"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "16-02-24",
+  "date_revised": "24-09-24",
+  "date_accepted": "02-10-24",
+  "date_published": "22-10-24"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Neurochemical and genetic factors in panic disorder: a systematic review",
+  "authors": [
+    "Adriana Carvalho Natal Moraes",
+    "Clarissa Wijaya",
+    "Rafael Freire",
+    "Laiana Azevedo Quagliato",
+    "Antonio Egidio Nardi",
+    "Peter Kyriakoulis"
+  ],
+  "affiliations": [
+    "Federal University of Rio de Janeiro, Rio de Janeiro, Brazil",
+    "School of Psychology, Swinburne University, Melbourne, VIC, Australia",
+    "Department of Psychiatry and Centre for Neuroscience Studies, Queen's University, Kingston, ON, Canada"
+  ],
+  "background": "This systematic review aims to update and consolidate knowledge regarding panic disorder (PD), focusing on neurochemical, genetic, and epigenetic factors.",
+  "hypotheses": [
+    "Understanding the interplay of neurocircuitry and neurochemical factors in the pathophysiology of PD",
+    "Identifying recent advances in genetic research related to the development and maintenance of PD",
+    "Establishing foundations and new insights into the fear circuitry involved in PD",
+    "Identifying sophisticated translational models to assess the empirical value of animal research in understanding the neurobiological basis and pathophysiology of PD"
+  ],
+  "major_findings": [
+    "Lower receptor binding of GABAA and serotonin neurotransmitters were found in the amygdala.",
+    "Elevated Interleukin 6 and leptin levels in PD patients suggest potential connections between stress-induced inflammatory changes and PD.",
+    "Brain-derived neurotrophic factor (BDNF) and tyrosine receptor kinase B (TrkB) signaling are implicated in panic-like responses, particularly in the dorsal periaqueductal gray (dPAG).",
+    "Altered brain lactate and glutamate concentrations, along with identified genetic polymorphisms linked to PD, further contribute to the intricate neurochemical landscape associated with the disorder."
+  ],
+  "sample_types": [
+    "human",
+    "animal"
+  ],
+  "methods": [
+    "systematic review",
+    "PRISMA methodology",
+    "PubMed Database search",
+    "qualitative data synthesis"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "20-09-23",
+  "date_revised": "13-05-24",
+  "date_accepted": "28-05-24",
+  "date_published": "18-07-24"
+}

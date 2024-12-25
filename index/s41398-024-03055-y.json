@@ -1,0 +1,45 @@
+{
+  "title": "Epigenetic mechanisms of rapid-acting antidepressants",
+  "authors": [
+    "Antonio Inserra",
+    "Antonella Campanale",
+    "Tamim Rezai",
+    "Patrizia Romualdi",
+    "Tiziana Rubino"
+  ],
+  "affiliations": [
+    "Department of Psychiatry, McGill University, Montreal, QC, Canada",
+    "Department of Pharmacy and Biotechnology, University of Bologna, Bologna, Italy",
+    "Department of Biotechnology and Life Sciences and Neuroscience Center, University of Insubria, Varese, Italy",
+    "Behavioral Neuroscience Laboratory, University of South Santa Catarina (UNISUL), Tubarão, Brazil"
+  ],
+  "background": "Rapid-acting antidepressants (RAADs) improve psychiatric disorders by modulating neuroplasticity, neurotransmission, and immunity, potentially through epigenetic mechanisms.",
+  "hypotheses": [
+    "Whether epigenetic changes causally contribute to the therapeutic effects of RAADs, are a consequence thereof, or are unrelated remains unknown.",
+    "Psilocybin might increase telomerase activity and telomere length.",
+    "Ayahuasca might extinguish the fear response via an epigenetic mechanism mediated by the DMT-activated Sigma-1 receptor.",
+    "RAADs might directly interact with DNA, histones, or chromatin remodeling complexes, thus acting as direct epigenetic modulators."
+  ],
+  "major_findings": [
+    "Preliminary evidence indicates that administration of RAADs is accompanied by epigenetic effects which are similar to those elicited by conventional antidepressants.",
+    "Ketamine restores some of the stress-induced aberrant DNA methylation, including on the BDNF gene.",
+    "Repeated LSD largely increased the methylation level of 635 CpG sites in the PFC of adult male mice.",
+    "MDMA-assisted psychotherapy led to peripheral epigenetic changes correlated to therapeutic improvement.",
+    "Repeated ketamine during early gestation decreases the cardiac histone H3K9 acetylation level, leading to cardiac enlargement."
+  ],
+  "sample_types": [
+    "human",
+    "mouse",
+    "rat"
+  ],
+  "methods": [
+    "literature review",
+    "proteomics profiling",
+    "qRT-PCR"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "21-12-23",
+  "date_revised": "19-08-24",
+  "date_accepted": "21-08-24",
+  "date_published": "04-09-24"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "A network analysis of rumination on loneliness and the relationship with depression",
+  "authors": [
+    "Jingyi Luo",
+    "Nichol M. L. Wong",
+    "Ruibin Zhang",
+    "Jingsong Wu",
+    "Jingyi Luo",
+    "Robin Shao",
+    "Chetwyn C. H. Chan",
+    "Tatia M. C. Lee"
+  ],
+  "affiliations": [
+    "State Key Laboratory of Brain and Cognitive Sciences, The University of Hong Kong, Hong Kong SAR, China",
+    "Laboratory of Neuropsychology and Human Neuroscience, Department of Psychology, The University of Hong Kong, Hong Kong SAR, China",
+    "Department of Psychology, The Education University of Hong Kong, Hong Kong SAR, China",
+    "Cognitive Control and Brain Healthy Laboratory, Department of Psychology, School of Public Health, Southern Medical University, Guangzhou, China",
+    "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China",
+    "The Academy of Rehabilitation Industry, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  ],
+  "background": "Loneliness is a critical risk factor for depression, and rumination may modulate this relationship.",
+  "hypotheses": [
+    "Rumination mediates the relationship between loneliness and depression.",
+    "In network analysis, specific loneliness items, rumination items, and depressive symptoms will be positively related."
+  ],
+  "major_findings": [
+    "Loneliness has no robust association with depressive symptoms.",
+    "Ruminating on the feeling of loneliness is the key underlying factor modulating the loneliness-depression relationship."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "network analysis",
+    "mediation analysis",
+    "Spearman's correlations"
+  ],
+  "journal": "Nature Mental Health",
+  "date_received": "20-09-23",
+  "date_revised": "NA",
+  "date_accepted": "09-10-24",
+  "date_published": "19-12-24"
+}

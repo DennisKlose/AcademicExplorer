@@ -1,0 +1,50 @@
+{
+  "title": "Association of clinical phenotypes of depression with comorbid conditions, treatment patterns and outcomes: a 10-year region-based cohort study",
+  "authors": [
+    "Ting Zhu",
+    "Di Mu",
+    "Yao Hu",
+    "Yang Cao",
+    "Minlan Yuan",
+    "Jia Xu",
+    "Heng-Qing Ye",
+    "Wei Zhang"
+  ],
+  "affiliations": [
+    "West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu 610041, China",
+    "Med-X Center for Informatics, Sichuan University, Chengdu 610041, China",
+    "Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, The University of Melbourne, Parkville VIC 3053, Australia",
+    "Melbourne School of Psychological Sciences, The University of Melbourne, Parkville VIC 3010, Australia",
+    "Mental Health Center of West China Hospital, Sichuan University, Chengdu 610041, China",
+    "The First Psychiatric Hospital of Harbin, Harbin 150056, China",
+    "Faculty of Business, Hong Kong Polytechnic University, Hong Kong 100872, China"
+  ],
+  "background": "Depression is a heterogeneous disorder with variable manifestations and comorbidities, posing challenges for treatment and prognosis.",
+  "hypotheses": [
+    "Are there distinct comorbidity-specific phenotypes of depression?",
+    "Are these phenotypes associated with different treatment patterns, clinical manifestations, and outcomes?",
+    "What are the underlying biological pathways connecting depression with other psychiatric and somatic diseases?"
+  ],
+  "major_findings": [
+    "Five stable phenotypic categories of depression were identified, each encompassing multiple clusters driven by comorbidity patterns and symptom profiles.",
+    "These phenotypes showed distinct differences in treatment approaches, clinical presentations, and biological characteristics.",
+    "Patients in different phenotypic categories exhibited varying risks of psychiatric rehospitalization, with those in the neurological/mental comorbidity category showing the highest risk.",
+    "The findings suggest that cardiometabolic system, chronic inflammation, digestive system, neurological system, and mental and behavioral disorders play crucial roles in connecting depression with other diseases."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "Retrospective observational cohort study",
+    "Electronic medical record (EMR) data analysis",
+    "K-means clustering",
+    "Visualization methods (Chord diagram, Radar chart, Boxplot)",
+    "Adjusted Cox proportional hazards model",
+    "Kaplan-Meier analysis"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "10-05-24",
+  "date_revised": "05-12-24",
+  "date_accepted": "16-12-24",
+  "date_published": "24-12-24"
+}

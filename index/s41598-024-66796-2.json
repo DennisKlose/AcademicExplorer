@@ -1,0 +1,48 @@
+{
+  "title": "The oral microbiome is associated with HPA axis response to a psychosocial stressor",
+  "authors": [
+    "Eleftheria G. Charalambous",
+    "Sophie B. Mériaux",
+    "Pauline Guebels",
+    "Claude P. Muller",
+    "Fleur A. D. Leenen",
+    "Martha M. C. Elwenspoek",
+    "Ines Thiele",
+    "Johannes Hertel",
+    "Jonathan D. Turner"
+  ],
+  "affiliations": [
+    "Immune Endocrine Epigenetics Research Group, Department of Infection and Immunity, Luxembourg Institute of Health",
+    "Faculty of Science, Technology and Medicine, University of Luxembourg",
+    "Department of Psychiatry and Psychotherapy, University Medicine Greifswald",
+    "Department of Psychology, University of Cyprus",
+    "School of Medicine, National University of Ireland, Galway",
+    "Ryan Institute, National University of Galway",
+    "Division of Microbiology, National University of Galway",
+    "APC Microbiome Ireland",
+    "German Center for Cardiovascular Diseases (DZHK), Partner Site Greifswald"
+  ],
+  "background": "Intense psychosocial stress during early life has detrimental effects on health, and the developing microbiome's sensitivity to stress contributes to long-term health.",
+  "hypotheses": [
+    "The oral microbiome interacts with the stress response, modifying the effect of stress on the HPA axis and human metabolism."
+  ],
+  "major_findings": [
+    "Twelve genera in the oral microbiome interacted with the host's cortisol-glucose response to stress, influencing cortisol and glucose release and clearance.",
+    "Diversity and evenness of the buccal microbiome interacted with glucose kinetics, while salivary microbiome diversity interacted with cortisol kinetics.",
+    "Specific taxa influenced glucose and cortisol release profiles and kinetics following stress exposure."
+  ],
+  "sample_types": [
+    "human saliva",
+    "human buccal swabs"
+  ],
+  "methods": [
+    "Socially evaluated cold pressor test (seCPT)",
+    "16S-V4 sequencing",
+    "mixed-effect linear regressions"
+  ],
+  "journal": "Scientific Reports",
+  "date_received": "22-02-24",
+  "date_revised": "NA",
+  "date_accepted": "03-07-24",
+  "date_published": "09-07-24"
+}

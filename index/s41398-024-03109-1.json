@@ -1,0 +1,56 @@
+{
+  "title": "Dysregulated miR-124 mediates impaired social memory behavior caused by paternal early social isolation",
+  "authors": [
+    "Sijia Chen",
+    "Shixin Ding",
+    "Yingting Pang",
+    "Yuxi Jin",
+    "Peng Sun",
+    "Yue Li",
+    "Min Cao",
+    "Yimiao Wang",
+    "Ze Wang",
+    "Tianqi Wang",
+    "Ying Zou",
+    "Yanli Zhang",
+    "Ming Xiao"
+  ],
+  "affiliations": [
+    "Jiangsu Key Laboratory of Neurodegeneration, Nanjing Medical University, Nanjing 211166, China",
+    "Center for Global Health, Nanjing Medical University, Nanjing 211166, China",
+    "Brain Institute, Nanjing Brain Hospital, Nanjing Medical University, Nanjing 210029, China",
+    "Changzhou Medical Center, Nanjing Medical University, Changzhou 213003, China",
+    "The Affiliated Changzhou Second People's Hospital of Nanjing Medical University, Changzhou Second People's Hospital, Changzhou 213000, China"
+  ],
+  "background": "Early social isolation (SI) in parents can negatively impact offspring behavior and neurodevelopment, but the mechanisms are unclear.",
+  "hypotheses": [
+    "Paternal early SI causes social memory deficits and anxiety-like behavior in offspring.",
+    "Dysregulation of miR-124 mediates the intergenerational effects of early SI stress.",
+    "Altered miR-124/Nr4a1/glucocorticoid receptor expression in the mPFC contributes to impaired social behavior."
+  ],
+  "major_findings": [
+    "Paternal early SI caused social memory deficits and anxiety-like behavior in F1 mice, exacerbated by additional SI in offspring.",
+    "Paternal SI led to reduced myelination and synaptic integrity in the mPFC of F1 mice, worsened by additional SI.",
+    "Elevated miR-124 levels in paternal sperm were epigenetically transmitted to offspring, altering miR-124/Nr4a1/glucocorticoid receptor expression in the mPFC.",
+    "Inhibiting miR-124 or overexpressing Nr4a1 in the mPFC of F1 mice improved social interaction and myelination.",
+    "Two-week SI exacerbated the downregulation of GR expression in the mPFC of F1 mice."
+  ],
+  "sample_types": [
+    "Mouse"
+  ],
+  "methods": [
+    "Behavioral tests (three-chamber test, open-field test, elevated plus maze, Y-maze)",
+    "Electron microscopy (EM)",
+    "Immunohistochemistry and immunofluorescence",
+    "Western blot",
+    "Quantitative reverse transcriptase polymerase chain reaction (qRT-PCR)",
+    "Enzyme-linked immunosorbent assay (ELISA)",
+    "Stereotaxic injection of AAV vectors",
+    "Primary cortical neuron and oligodendrocyte precursor cell cultures"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "02-01-24",
+  "date_revised": "19-09-24",
+  "date_accepted": "23-09-24",
+  "date_published": "28-09-24"
+}

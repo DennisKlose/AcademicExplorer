@@ -1,0 +1,50 @@
+{
+  "title": "Computational algorithm based on health and lifestyle traits to categorize lifemetabotypes in the NUTRIMDEA cohort",
+  "authors": [
+    "Andrea Higuera-Gómez",
+    "Víctor de la O",
+    "Rodrigo San-Cristobal",
+    "Rosa Ribot-Rodríguez",
+    "Isabel Espinosa-Salinas",
+    "Alberto Dávalos",
+    "María P. Portillo",
+    "J. Alfredo Martínez"
+  ],
+  "affiliations": [
+    "Precision Nutrition and Cardiometabolic Health, IMDEA-Food Institute (Madrid Institute for Advanced Studies) Campus of International Excellence (CEI) UAM+CSIC, Madrid, Spain",
+    "Faculty of Health Sciences, International University of La Rioja (UNIR), Logroño, Spain",
+    "Centre Nutrition, Santé et Société (NUTRISS), Institut sur la Nutrition et les Aliments Fonctionnels de l'Université Laval (INAF), Université Laval, Québec, QC, Canada",
+    "School of Nutrition, Université Laval, Québec, Canada",
+    "Nutritional Genomics and Health Unit, IMDEA-Food Institute (Madrid Institute for Advanced Studies) Campus of International Excellence (CEI) UAM+CSIC, Madrid, Spain",
+    "Epigenetics of Lipid Metabolism Group, IMDEA-Food Institute (Madrid Institute for Advanced Studies) Campus of International Excellence (CEI) UAM+CSIC, Madrid, Spain",
+    "Biomedical Research Centre for Obesity Physiopathology and Nutrition Network (CIBEROBN, Institute of Health Carlos III (ISCIII), Madrid, Spain",
+    "Nutrition and Obesity Group, Department of Pharmacy and Food Science, Lucio Lascaray Research Institute, University of the Basque Country (UPV/EHU), Vitoria, Spain",
+    "Bioaraba Health Research Institute, Alava, Spain"
+  ],
+  "background": "Lifestyle significantly impacts overall health and well-being, and classifying individuals based on metabotypes and lifestyle phenotypes is promising for precision chronic disease prevention and management.",
+  "hypotheses": [
+    "Classifying individuals based on metabotypes and lifestyle phenotypes using exploratory factor analyses, cluster definition, and machine-learning algorithms is promising for precision chronic disease prevention and management."
+  ],
+  "major_findings": [
+    "Five clusters were identified, combining metabolic, lifestyle, and personal data: \"Westernized Millennial\", \"Healthy\", \"Mediterranean Young Adult\", \"Pre-morbid\", and \"Pro-morbid\".",
+    "A computational algorithm was elicited, which allowed quick cluster assignment based on responses (\"lifemetabotypes\").",
+    "This machine-learning approach facilitates personalized interventions and precision lifestyle recommendations, supporting online methods for targeted health maintenance and chronic disease prevention."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "Exploratory factor analysis",
+    "Cluster analysis",
+    "Ward's hierarchical clustering method",
+    "Calinski and Harabasz pseudo-F index",
+    "Forward stepwise regression",
+    "Multiple linear regression",
+    "Random forest model"
+  ],
+  "journal": "Scientific Reports",
+  "date_received": "21-05-24",
+  "date_revised": "NA",
+  "date_accepted": "01-10-24",
+  "date_published": "22-10-24"
+}

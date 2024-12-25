@@ -9,16 +9,16 @@
     "Department of Neurology, University of Virginia, Charlottesville, VA, USA",
     "Department of Pediatrics, Division of Neonatology, University of Virginia, Charlottesville, VA, USA"
   ],
-  "background": "Oxytocin's role in social behavior and psychopathology is highly variable, and epigenetic modifications to the oxytocin receptor gene (OXTR) may improve our understanding and therapeutic approaches.",
+  "background": "Oxytocin's role in social behavior and psychopathology is increasingly understood through epigenetic modifications to the oxytocin receptor gene (OXTR).",
   "hypotheses": [
     "Early life environment shapes OXTR epigenetics and impacts social-developmental outcomes.",
     "OXTR methylation (OXTRm) serves as a predictive mechanism for neurodevelopmental outcomes.",
-    "OXTRm can serve as a powerful target for therapeutic interventions to improve oxytocin therapeutics."
+    "OXTRm can serve as a powerful therapeutic target to improve oxytocin therapeutics."
   ],
   "major_findings": [
-    "Early life experiences, such as maternal care, significantly influence OXTRm in both animal models and humans.",
-    "OXTRm is highly variable across individuals and is associated with differences in social behavior and psychopathology.",
-    "Specific CpG sites within the OXTR promoter region are functionally related to OXTR expression and are consistently associated with behavioral outcomes across species.",
+    "Early life experiences, such as maternal care, significantly impact OXTRm in both animal models and humans.",
+    "OXTRm is a reliable predictor of neurodevelopmental outcomes, including social behavior and psychopathology.",
+    "Specific CpG sites within the OXTR gene show functional associations between methylation and gene expression.",
     "OXTRm may impact additional cellular mechanisms, such as the perinatal GABA switch, with therapeutic potential.",
     "Early life therapies targeting OXTRm may improve the therapeutic potential of exogenous oxytocin."
   ],
@@ -31,9 +31,14 @@
   "methods": [
     "Bibliometric analysis",
     "DNA methylation assays (Illumina 450k and 850k arrays)",
+    "Gene expression analysis",
     "Behavioral assessments",
     "fMRI",
-    "Statistical analysis (correlation, regression)"
+    "Statistical analysis"
   ],
-  "journal": "Pediatric Research"
+  "journal": "Pediatric Research",
+  "date_received": "17-04-24",
+  "date_revised": "26-07-24",
+  "date_accepted": "14-08-24",
+  "date_published": "15-11-24"
 }

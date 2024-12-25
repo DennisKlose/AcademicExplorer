@@ -1,0 +1,39 @@
+{
+  "title": "A narrative on the neurobiological roots of attachment-system functioning",
+  "authors": [
+    "Amir Izaki",
+    "Willem J. M. I. Verbeke",
+    "Pascal Vrticka",
+    "Tsachi Ein-Dor"
+  ],
+  "affiliations": [
+    "Reichman University, Herzliya, Israel",
+    "Erasmus University, Rotterdam, the Netherlands",
+    "University of Essex, Colchester, United Kingdom"
+  ],
+  "background": "Attachment theory is a comprehensive framework in social and developmental psychology describing how emotional bonds between infants and caregivers are formed and maintained, but lacks a cohesive biological narrative.",
+  "hypotheses": [
+    "Organized attachment patterns systematically link the two primary purposes of the attachment behavioral system: tangible protection/support and the subjective feeling of safety/security.",
+    "Social allostasis-driven learning explains the dynamic adjustment of physiological balance in attachment pattern establishment and maintenance.",
+    "Epigenetic mechanisms contribute to attachment pattern formation and maintenance."
+  ],
+  "major_findings": [
+    "A detailed neurobiological model of attachment behavior is proposed, linking sensory threat perception, physiological responses, proximity-seeking, reunion, and system deactivation.",
+    "Oxytocin, dopamine, noradrenaline, cortisol, and opioids are identified as key neurobiological players in attachment, with positive feedback loops maintaining proximity-seeking.",
+    "Epigenetic modifications, particularly DNA methylation, are suggested as mechanisms underlying individual differences in attachment patterns, influenced by maternal care and early adversity."
+  ],
+  "sample_types": [
+    "human",
+    "animal models (rodents, primates, etc.)"
+  ],
+  "methods": [
+    "literature review",
+    "theoretical modeling",
+    "integration of findings from animal and human studies"
+  ],
+  "journal": "Communications Psychology",
+  "date_received": "02-04-24",
+  "date_revised": "NA",
+  "date_accepted": "08-10-24",
+  "date_published": "16-10-24"
+}

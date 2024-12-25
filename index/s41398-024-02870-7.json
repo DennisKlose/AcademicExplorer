@@ -1,0 +1,44 @@
+{
+  "title": "Genetics of child aggression, a systematic review",
+  "authors": [
+    "Emiko Koyama",
+    "Tuana Kant",
+    "Atsushi Takata",
+    "James L. Kennedy",
+    "Clement C. Zai"
+  ],
+  "affiliations": [
+    "Tanenbaum Centre for Pharmacogenetics, Molecular Brain Science, Campbell Family Mental Health Research Institute, Centre for Addiction and Mental Health, Toronto, ON, Canada",
+    "Laboratory for Molecular Pathology of Psychiatric Disorders, RIKEN Center for Brain Science, Wako, Japan",
+    "Department of Psychiatry, University of Toronto, Toronto, ON, Canada",
+    "Institute of Medical Science, University of Toronto, Toronto, ON, Canada",
+    "Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON, Canada",
+    "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+  ],
+  "background": "Excessive and persistent aggressiveness is a common childhood behavioral problem leading to psychiatric referrals, with half of the variance attributed to genetic factors.",
+  "hypotheses": [
+    "To provide an overview of studies examining the genetics of childhood aggression irrespective of psychiatric diagnosis.",
+    "To understand the genetic underpinnings of childhood aggression."
+  ],
+  "major_findings": [
+    "Candidate gene studies, especially of MAOA, DRD4, and COMT, dominate the field, but genome-wide association and epigenetic studies are increasing.",
+    "Published articles tend to be moderate in size, with variable methods of assessing aggressive behavior and inconsistent categorizations of tandem repeat variants, resulting in inconclusive findings.",
+    "The majority of studies are conducted on European, male-only or male-female mixed participants.",
+    "To understand the genetic underpinnings of childhood aggression, more research is required with larger, more diverse sample sets, consistent and reliable assessments, and standardized definitions of aggression phenotypes."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "Systematic review",
+    "Literature search (PubMed, MEDLINE, PsycINFO)",
+    "Data extraction",
+    "Quality assessment",
+    "PRISMA flow chart"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "17-03-23",
+  "date_revised": "07-03-24",
+  "date_accepted": "11-03-24",
+  "date_published": "11-06-24"
+}

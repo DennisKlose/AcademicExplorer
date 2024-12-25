@@ -1,0 +1,39 @@
+{
+  "title": "Circadian rhythm analysis using wearable-based accelerometry as a digital biomarker of aging and healthspan",
+  "authors": [
+    "Jinjoo Shim",
+    "Elgar Fleisch",
+    "Filipe Barata"
+  ],
+  "affiliations": [
+    "Centre for Digital Health Interventions, Department of Management, Technology, and Economics, ETH Zurich, Zurich, Switzerland",
+    "Centre for Digital Health Interventions, Institute of Technology Management, University of St. Gallen, St. Gallen, Switzerland"
+  ],
+  "background": "Circadian rhythmicity plays a crucial role in human aging, and wearable technology offers a scalable way to assess it.",
+  "hypotheses": [
+    "CosinorAge, a digital biomarker derived from wearable-based circadian rhythmicity, reflects biological aging and predicts mortality, morbidity, and age-related functional decline.",
+    "Integrating circadian rhythmicity enhances the prediction of biological aging compared to physical activity alone."
+  ],
+  "major_findings": [
+    "A one-year increase in CosinorAge corresponded to 8-12% higher all-cause and cause-specific mortality risks and 3-14% increased prospective incidences of age-related diseases.",
+    "CosinorAge captured a non-linear decline in resilience and physical functioning, evidenced by an 8–33% reduction in self-rated health and a 3-23% decline in health-related quality of life.",
+    "Young and fast agers showed a substantially delayed acrophase compared to slow agers, with the difference diminishing in older adults.",
+    "Integrating circadian rhythmicity significantly enhanced the predictive performance of biological aging compared to physical activity alone."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "Wearable-based accelerometry data from UK Biobank and NHANES",
+    "Cosinor analysis to extract circadian parameters (MESOR, amplitude, acrophase)",
+    "Gompertz model to estimate biological age (CosinorAge)",
+    "Cox proportional hazards models to assess associations with mortality and disease incidence",
+    "Generalized linear models to analyze associations with functional performance",
+    "Correlation analysis with established biological age measures (KDM BA, PhenoAge)"
+  ],
+  "journal": "npj Digital Medicine",
+  "date_received": "11-12-23",
+  "date_revised": "12-04-24",
+  "date_accepted": "12-04-24",
+  "date_published": "04-06-24"
+}

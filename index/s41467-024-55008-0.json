@@ -1,0 +1,70 @@
+{
+  "title": "Edge-centric connectome-genetic markers of bridging factor to comorbidity between depression and anxiety",
+  "authors": [
+    "Zhiyi Chen",
+    "Yancheng Tang",
+    "Xuerong Liu",
+    "Wei Li",
+    "Yuanyuan Hu",
+    "Bowen Hu",
+    "Ting Xu",
+    "Rong Zhang",
+    "Lei Xia",
+    "Jing-Xuan Zhang",
+    "Zhibing Xiao",
+    "Ji Chen",
+    "Zhengzhi Feng",
+    "Yuan Zhou",
+    "Qinghua He",
+    "Jiang Qiu",
+    "Xu Lei",
+    "Hong Chen",
+    "Shaozheng Qin",
+    "Tingyong Feng"
+  ],
+  "affiliations": [
+    "Experimental Research Center for Medical and Psychological Science, School of Psychology, Third Military Medical University, Chongqing, China",
+    "School of Psychology, Southwest University, Chongqing, China",
+    "Key Laboratory of Cognition and Personality, Ministry of Education, Chongqing, China",
+    "Key Laboratory of Brain-Machine Intelligence for Information Behavior (Ministry of Education and Shanghai), School of Business and Management, Shanghai International Studies University, Shanghai, China",
+    "CAS Key Laboratory of Behavioral Science, Institute of Psychology, Chinese Academy of Sciences, Beijing, China",
+    "Department of Psychology, University of Chinese Academy of Sciences, Beijing, China",
+    "State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing, China",
+    "The Center of Psychosomatic Medicine, Sichuan Provincial Center for Mental Health, Sichuan Provincial People's Hospital, Chengdu, China",
+    "The Clinical Hospital of Chengdu Brain Science Institute, MOE Key Laboratory for Neuroinformation, University of Electronic Science and Technology of China, Chengdu, China",
+    "Center for Brain Health and Brain Technology, Global Institute of Future Technology, Institute of Psychology and Behavioral Science, Shanghai Jiao Tong University, Shanghai, China"
+  ],
+  "background": "Depression and anxiety frequently co-occur, impacting treatment outcomes, and understanding the underlying mechanisms is crucial.",
+  "hypotheses": [
+    "Can a common factor characterize the general structure of bridging symptoms in depression-anxiety comorbidity?",
+    "Are there neural markers supporting the neurobiological foundation of this common factor?",
+    "What connectome-based markers characterize this common factor?",
+    "What are the multiscale genetic substrates for these connectome-based markers?"
+  ],
+  "major_findings": [
+    "A common bridging factor (cb factor) was identified from 12 bridging symptoms, predicting comorbidity with robust generalizability.",
+    "This cb factor was characterized by connectome patterns in attention and frontoparietal networks, which were moderately heritable.",
+    "Genetic connectome-transcriptional markers associated with vasculature and cerebellar development, particularly during late childhood to young adulthood, were identified.",
+    "These findings reveal a general factor of bridging symptoms and its neurobiological architectures, enriching neurogenetic understanding of depression-anxiety comorbidity."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "EBICglasso graph-theoretical model",
+    "factor analysis",
+    "edge-centric brain connectome-based feature (eFC) calculation",
+    "eFC connectome-based predictive model (eCPM)",
+    "inter-subject representation similarity analysis (RSA)",
+    "ACE model",
+    "Allen Human Brain Atlas (AHBA)",
+    "representation similarity pattern analysis",
+    "PLS regression",
+    "gene expression enrichment analysis"
+  ],
+  "journal": "Nature Communications",
+  "date_received": "07-06-24",
+  "date_revised": "NA",
+  "date_accepted": "25-11-24",
+  "date_published": "04-12-24"
+}

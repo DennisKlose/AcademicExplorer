@@ -1,0 +1,40 @@
+{
+  "title": "A systematic review of childhood maltreatment and DNA methylation: candidate gene and epigenome-wide approaches",
+  "authors": [
+    "Stephanie H. Parade",
+    "Lindsay Huffhines",
+    "Teresa E. Daniels",
+    "Laura R. Stroud",
+    "Nicole R. Nugent",
+    "Audrey R. Tyrka"
+  ],
+  "affiliations": [
+    "Initiative on Stress, Trauma, and Resilience, Department of Psychiatry and Human Behavior, Warren Alpert Medical School, Brown University, Providence, RI, USA",
+    "Bradley/Hasbro Children's Research Center, E. P. Bradley Hospital, East Providence, RI, USA",
+    "Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+    "Center for Behavioral and Preventive Medicine, The Miriam Hospital, Providence, RI, USA"
+  ],
+  "background": "Childhood maltreatment is a major risk factor for chronic and severe mental and physical health problems, and epigenetic changes may serve as mechanisms of disease.",
+  "hypotheses": [
+    "Maltreatment is associated with epigenetic changes that may subsequently serve as mechanisms of disease."
+  ],
+  "major_findings": [
+    "Childhood maltreatment is associated with altered DNA methylation in both children and adults, but findings show considerable variability across studies and genes.",
+    "In children, maltreatment is associated with higher methylation of NR3C1 and lower methylation of FKBP5, while in adults, findings are inconsistent across studies.",
+    "Epigenome-wide studies suggest that maltreatment is associated with widespread methylation changes across the genome, but findings vary across studies and samples.",
+    "Childhood adversity is associated with accelerated epigenetic aging in both children and adults, but findings are not consistently replicated across studies."
+  ],
+  "sample_types": [
+    "Human"
+  ],
+  "methods": [
+    "Systematic review of literature",
+    "Qualitative synthesis of empirical articles",
+    "PRISMA guidelines"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "28-11-19",
+  "date_revised": "18-12-20",
+  "date_accepted": "07-01-21",
+  "date_published": "19-02-21"
+}

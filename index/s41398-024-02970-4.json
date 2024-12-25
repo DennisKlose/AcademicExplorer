@@ -1,0 +1,49 @@
+{
+  "title": "Development of a differential treatment selection model for depression on consolidated and transformed clinical trial datasets",
+  "authors": [
+    "Kelly Perlman",
+    "Joseph Mehltretter",
+    "David Benrimoh",
+    "Caitrin Armstrong",
+    "Robert Fratila",
+    "Christina Popescu",
+    "Jingla-Fri Tunteng",
+    "Jerome Williams",
+    "Colleen Rollins",
+    "Grace Golden",
+    "Gustavo Turecki"
+  ],
+  "affiliations": [
+    "Douglas Mental Health University Institute, Montreal, QC, Canada",
+    "McGill University, Montreal, QC, Canada",
+    "Aifred Health Inc., Montreal, QC, Canada",
+    "University of Alberta, Edmonton, AB, Canada",
+    "University of Cambridge, Cambridge, UK",
+    "University of Waterloo, Waterloo, ON, Canada"
+  ],
+  "background": "Major depressive disorder (MDD) is a leading cause of disability, and current treatment selection methods are inefficient, highlighting the need for personalized approaches.",
+  "hypotheses": [
+    "Machine learning can effectively predict differential treatment benefits for depression.",
+    "A combined dataset from multiple clinical trials can be used to train a robust and unbiased prediction model.",
+    "The model will generalize well to unseen data and avoid propagating harmful biases."
+  ],
+  "major_findings": [
+    "A multi-layer dense neural network achieved an AUC of 0.7 in predicting binary remission for depression, generalizing well to held-out test and validation sets.",
+    "The model utilized 21 clinical and sociodemographic features, demonstrating the feasibility of using readily available data for prediction.",
+    "Bias testing indicated that the model did not exhibit harmful biases related to ethnicity, age, or sex."
+  ],
+  "sample_types": [
+    "human"
+  ],
+  "methods": [
+    "Data consolidation and transformation from multiple clinical trials",
+    "Bayesian optimization for neural network architecture and hyperparameter tuning",
+    "Multi-layer dense neural network model",
+    "Bias testing using subgroup analysis"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "28-09-23",
+  "date_revised": "09-05-24",
+  "date_accepted": "29-05-24",
+  "date_published": "21-06-24"
+}
