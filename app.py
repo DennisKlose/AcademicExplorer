@@ -10,10 +10,10 @@ import dash
 from dash import html, dcc, callback, Input, Output, State
 import dash_bootstrap_components as dbc
 import google.generativeai as genai
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 from typing_extensions import Annotated
 from pydantic.functional_validators import BeforeValidator
-import datetime
+from datetime import datetime
 
 
 # Initialize Dash app with a modern theme
@@ -49,10 +49,12 @@ class PaperAnalysis(BaseModel):
     date_revised: DateField | str
     date_accepted: DateField | str
     date_published: DateField | str
+    analyzed: datetime = Field(default_factory=datetime.now)
     
     model_config = ConfigDict(
         json_encoders={
-            date: lambda d: d.strftime("%d-%m-%y") if d else "NA"
+            date: lambda d: d.strftime("%d-%m-%y") if d else "NA",
+            datetime: lambda dt: dt.strftime("%Y-%m-%d %H:%M:%S")
         }
     )
 
@@ -200,16 +202,18 @@ def batch_analyze_pdfs(n_clicks):
     if total_files == 0:
         return 0, {"display": "none"}, "", True, dash.no_update, dash.no_update
 
+    # Show progress bar immediately
+    dash.callback_context.response.set_header('Cache-Control', 'no-cache')
+    
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     model = genai.GenerativeModel("gemini-1.5-flash")
     
     current_analysis = None
     for i, pdf in enumerate(pending_pdfs, 1):
-        progress = (i / total_files) * 100
-        progress_label = f"Processing {i}/{total_files}"
+        # Update progress for each file
+        progress = (i - 1) / total_files * 100
         
         try:
-            # Existing PDF analysis code...
             doc_path = pdf.absolute()
             with open(doc_path, "rb") as doc_file:
                 doc_data = base64.standard_b64encode(doc_file.read()).decode("utf-8")
@@ -222,6 +226,7 @@ def batch_analyze_pdfs(n_clicks):
             
             cleaned_response = clean_json_response(response.text)
             paper_analysis = PaperAnalysis.model_validate_json(cleaned_response)
+            paper_analysis.analyzed = datetime.datetime.now()
             json_output = paper_analysis.model_dump_json(indent=2)
             
             index_dir = Path("index")
@@ -233,6 +238,13 @@ def batch_analyze_pdfs(n_clicks):
             
             current_analysis = json.loads(json_output)
             
+            # Use dcc.Store for intermediate progress updates
+            progress = i / total_files * 100
+            dash.callback_context.response.set_data({
+                "progress": progress,
+                "label": f"Processing {i}/{total_files}"
+            })
+            
         except Exception as e:
             print(f"Error analyzing {pdf.name}: {str(e)}")
             continue
@@ -241,13 +253,30 @@ def batch_analyze_pdfs(n_clicks):
     new_options = [{"label": f"📊 {pdf.name}", "value": pdf.stem} for pdf in analyzed_pdfs]
     
     return (
-        100,  # Progress value
-        {"display": "block"},  # Progress style
-        f"Completed {total_files} files",  # Progress label
-        True,  # Disable button
-        new_options,  # Updated dropdown options
-        current_analysis  # Last analyzed file
+        100,
+        {"display": "block"},
+        f"Completed {total_files} files",
+        True,
+        new_options,
+        current_analysis
     )
+
+# Add this new callback for progress updates
+@app.callback(
+    [Output("analysis-progress", "value", allow_duplicate=True),
+     Output("analysis-progress", "label", allow_duplicate=True)],
+    Input("batch-analyze-btn", "n_clicks"),
+    prevent_initial_call=True
+)
+def update_progress(n_clicks):
+    if not dash.callback_context.triggered:
+        return dash.no_update, dash.no_update
+    
+    # Get progress from response data
+    progress_data = dash.callback_context.response.get_data()
+    if progress_data:
+        return progress_data["progress"], progress_data["label"]
+    return 0, "Starting..."
 
 # Analysis prompt as a constant
 ANALYSIS_PROMPT = """
@@ -323,7 +352,8 @@ def create_analysis_content(analysis_data):
                     f"Received: {analysis_data['date_received']}", html.Br(),
                     f"Revised: {analysis_data['date_revised']}", html.Br(),
                     f"Accepted: {analysis_data['date_accepted']}", html.Br(),
-                    f"Published: {analysis_data['date_published']}"
+                    f"Published: {analysis_data['date_published']}"#, html.Br(),
+                    #f"Cracked: {analysis_data['analyzed']}"
                 ])
             ], width=6)
         ])
