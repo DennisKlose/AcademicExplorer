@@ -1,0 +1,78 @@
+{
+  "title": "Combined effects of genotype and childhood adversity shape variability of DNA methylation across age",
+  "authors": [
+    "Darina Czamara",
+    "Elleke Tissink",
+    "Johanna Tuhkanen",
+    "Jade Martins",
+    "Yvonne Awaloff",
+    "Amanda J. Drake",
+    "Batbayar Khulan",
+    "Aarno Palotie",
+    "Sibylle M. Winter",
+    "Charles B. Nemeroff",
+    "W. Edward Craighead",
+    "Boadie W. Dunlop",
+    "Helen S. Mayberg",
+    "Becky Kinkead",
+    "Sanjay J. Mathew",
+    "Dan V. Iosifescu",
+    "Thomas C. Neylan",
+    "Christine M. Heim",
+    "Jari Lahti",
+    "Johan G. Eriksson",
+    "Katri Räikkönen",
+    "Kerry J. Ressler",
+    "Nadine Provençal",
+    "Elisabeth B. Binder"
+  ],
+  "affiliations": [
+    "Department of Translational Research in Psychiatry, Max Planck Institute of Psychiatry, Munich, Germany",
+    "Department of Complex Trait Genetics, Center for Neurogenomics and Cognitive Research, Amsterdam Neuroscience, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands",
+    "Department of Psychology and Logopedics, Faculty of Medicine, University of Helsinki, Helsinki, Finland",
+    "Sopra Steria, Munich, Germany",
+    "University/British Heart Foundation Centre for Cardiovascular Science, Queen's Medical Research Institute, Edinburgh BioQuarter, University of Edinburgh, Edinburgh, UK",
+    "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland",
+    "Department of Child and Adolescent Psychiatry, Charité-Universitätsmedizin Berlin, Campus Virchow, Berlin, Germany",
+    "Department of Psychiatry, Dell Medical School, University of Texas at Austin, Austin, TX, USA",
+    "Department of Psychiatry and Behavioral Sciences, Emory University School of Medicine, Atlanta, GA, USA",
+    "Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+    "Menninger Department of Psychiatry and Behavioral Sciences, Baylor College of Medicine Mental Health Care Line, Michael E. Debakey VA Medical Center, Houston, TX, USA",
+    "NYU School of Medicine and Nathan Kline Institute, New York, NY, USA",
+    "Departments of Psychiatry and Neurology, University of California, San Francisco, CA, USA",
+    "Charité-Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt-Universität zu Berlin, Berlin Institute of Health (BIH), Institute of Medical Psychology, Berlin, Germany",
+    "Turku Institute for Advanced Studies, University of Turku, Turku, Finland",
+    "Department of General Practice and Primary Health Care, Helsinki University Hospital, University of Helsinki, Helsinki, Finland",
+    "Folkhälsan Research Center, Helsinki, Finland",
+    "Department of Obstetrics and Gynecology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+    "Singapore Institute for Clinical Sciences, Singapore, Singapore",
+    "Mailman Research Center, Belmont, MA, USA",
+    "Faculty of Health Sciences, Simon Fraser University, Burnaby, BC, Canada",
+    "BC Children's Hospital Research Institute, Vancouver, BC, Canada"
+  ],
+  "background": "Childhood adversity (CA) is a major risk factor for various mental and physical health problems, and epigenetic mechanisms, such as DNA methylation, may play a role in mediating these effects.",
+  "hypotheses": [
+    "The variability of DNA methylation is best explained by the combined effects of genotype and CA, rather than CA alone.",
+    "The combined effects of genotype and CA on DNA methylation variability are consistent across different ages and tissues."
+  ],
+  "major_findings": [
+    "For the majority of CpG sites, DNA methylation variability was best explained by additive or interactive effects of genotype and CA, not CA alone.",
+    "Across five independent cohorts, 1672 CpG sites showed consistent best-fitting models, with G × CA interactions explaining most variance; these sites mapped to genes enriched in brain-specific transcripts and functions related to development and synaptic function.",
+    "The strongest contribution to DNA methylation variability was the interaction of CA with genotypes, with stable effects across cohorts in functionally relevant genes."
+  ],
+  "sample_types": [
+    "human blood",
+    "human saliva"
+  ],
+  "methods": [
+    "DNA methylation analysis using Illumina Infinium HumanMethylation450K and EPIC BeadChips",
+    "Genome-wide SNP genotyping",
+    "Linear regression models to assess the effects of genotype, CA, and their interaction on DNA methylation variability",
+    "Gene-set enrichment analysis"
+  ],
+  "journal": "Translational Psychiatry",
+  "date_received": "19-11-20",
+  "date_revised": "02-12-20",
+  "date_accepted": "04-12-20",
+  "date_published": "01-02-21"
+}

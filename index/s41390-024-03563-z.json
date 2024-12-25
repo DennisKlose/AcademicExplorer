@@ -1,0 +1,39 @@
+{
+  "title": "The impact of the early environment on oxytocin receptor epigenetics and potential therapeutic implications",
+  "authors": [
+    "Madelyn G. Nance",
+    "Kelsey M. Sullivan",
+    "Meghan H. Puglia"
+  ],
+  "affiliations": [
+    "Department of Neurology, University of Virginia, Charlottesville, VA, USA",
+    "Department of Pediatrics, Division of Neonatology, University of Virginia, Charlottesville, VA, USA"
+  ],
+  "background": "Oxytocin's role in social behavior and psychopathology is highly variable, and epigenetic modifications to the oxytocin receptor gene (OXTR) may improve our understanding and therapeutic approaches.",
+  "hypotheses": [
+    "Early life environment shapes OXTR epigenetics and impacts social-developmental outcomes.",
+    "OXTR methylation (OXTRm) serves as a predictive mechanism for neurodevelopmental outcomes.",
+    "OXTRm can serve as a powerful target for therapeutic interventions to improve oxytocin therapeutics."
+  ],
+  "major_findings": [
+    "Early life experiences, such as maternal care, significantly influence OXTRm in both animal models and humans.",
+    "OXTRm is highly variable across individuals and is associated with differences in social behavior and psychopathology.",
+    "Specific CpG sites within the OXTR promoter region are functionally related to OXTR expression and are consistently associated with behavioral outcomes across species.",
+    "OXTRm may impact additional cellular mechanisms, such as the perinatal GABA switch, with therapeutic potential.",
+    "Early life therapies targeting OXTRm may improve the therapeutic potential of exogenous oxytocin."
+  ],
+  "sample_types": [
+    "Human (saliva, whole blood, PBMC)",
+    "Prairie vole (blood, brain tissue)",
+    "Rat (blood, brain tissue)",
+    "Mouse (brain tissue)"
+  ],
+  "methods": [
+    "Bibliometric analysis",
+    "DNA methylation assays (Illumina 450k and 850k arrays)",
+    "Behavioral assessments",
+    "fMRI",
+    "Statistical analysis (correlation, regression)"
+  ],
+  "journal": "Pediatric Research"
+}
