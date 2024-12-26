@@ -1,0 +1,55 @@
+{
+  "title": "Microglial PCGF1 alleviates neuroinflammation associated depressive behavior in adolescent mice",
+  "authors": [
+    "Naigang Li",
+    "Jingyi Du",
+    "Ying Yang",
+    "Tiantian Zhao",
+    "Dong Wu",
+    "Fan Peng",
+    "Dongshuang Wang",
+    "Linghua Kong",
+    "Wenjuan Zhou",
+    "Aijun Hao"
+  ],
+  "affiliations": [
+    "Key Laboratory for Experimental Teratology of Ministry of Education, Shandong Key Laboratory of Mental Disorders, Department of Anatomy and Histoembryology, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, China",
+    "Childhood Psychiatry Unit, Shandong Mental Health Center, Jinan, China",
+    "School of Nursing and Rehabilitation, Cheeloo College of Medicine, Shandong University, Jinan, China"
+  ],
+  "background": "Epigenetic regulation of microglia-mediated neuroinflammation may contribute to adolescent depression, but the mechanisms remain unclear.",
+  "hypotheses": [
+    "PCGF1 plays a role in regulating microglia-mediated neuroinflammation in adolescent depression.",
+    "PCGF1 affects histone modifications to regulate the expression of genes involved in neuroinflammation."
+  ],
+  "major_findings": [
+    "PCGF1 expression was decreased in the plasma of adolescent MDD patients and in microglia of adolescent mice with depression.",
+    "Microglial PCGF1 alleviated neuroinflammation, reduced neuronal damage, and improved depression-like behavior in adolescent mice.",
+    "Mechanistically, PCGF1 inhibited MMP10 transcription by upregulating RING1B/H2AK119ub and EZH2/H3K27me3, thereby suppressing microglia-mediated neuroinflammation."
+  ],
+  "sample_types": [
+    "human plasma",
+    "mouse microglia",
+    "mouse brain tissue",
+    "BV2 microglia"
+  ],
+  "methods": [
+    "RNA sequencing",
+    "QPCR",
+    "immunofluorescence",
+    "western blotting",
+    "ChIP-qPCR",
+    "ChIP-sequencing",
+    "transmission electron microscopy",
+    "flow cytometry",
+    "behavioral tests (FST, SPT, OFT, EPM)",
+    "immunoprecipitation",
+    "KEGG pathway analysis"
+  ],
+  "journal": "Molecular Psychiatry",
+  "date_received": "27-09-23",
+  "date_revised": "15-08-24",
+  "date_accepted": "22-08-24",
+  "date_published": "30-08-24",
+  "analyzed": "2024-12-26 09:12:48"
+}

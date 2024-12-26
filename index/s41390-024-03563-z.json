@@ -9,24 +9,24 @@
     "Department of Neurology, University of Virginia, Charlottesville, VA, USA",
     "Department of Pediatrics, Division of Neonatology, University of Virginia, Charlottesville, VA, USA"
   ],
-  "background": "Oxytocin's role in social behavior and psychopathology is increasingly understood through epigenetic modifications to the oxytocin receptor gene (OXTR).",
+  "background": "Oxytocin research is rapidly evolving and increasingly reveals that epigenetic modifications to the oxytocin receptor gene (OXTR) are functional, plastic, and reliable components of oxytocinergic system function.",
   "hypotheses": [
-    "Early life environment shapes OXTR epigenetics and impacts social-developmental outcomes.",
-    "OXTR methylation (OXTRm) serves as a predictive mechanism for neurodevelopmental outcomes.",
-    "OXTRm can serve as a powerful therapeutic target to improve oxytocin therapeutics."
+    "Early life experiences shape OXTR epigenetics and impact social-developmental outcomes.",
+    "OXTR methylation serves as a predictive mechanism for neurodevelopmental outcomes.",
+    "OXTRm may impact additional cellular mechanisms with therapeutic potential.",
+    "Early life therapies may target the tuning of endogenous OXTRm."
   ],
   "major_findings": [
-    "Early life experiences, such as maternal care, significantly impact OXTRm in both animal models and humans.",
-    "OXTRm is a reliable predictor of neurodevelopmental outcomes, including social behavior and psychopathology.",
-    "Specific CpG sites within the OXTR gene show functional associations between methylation and gene expression.",
-    "OXTRm may impact additional cellular mechanisms, such as the perinatal GABA switch, with therapeutic potential.",
-    "Early life therapies targeting OXTRm may improve the therapeutic potential of exogenous oxytocin."
+    "Early life environment significantly impacts OXTR DNA methylation (OXTRm) in both animal models and humans.",
+    "OXTRm serves as a predictive biomarker for neurodevelopmental outcomes, including social behavior and psychopathology.",
+    "Specific CpG sites within the OXTR gene show a strong association between methylation levels and gene expression.",
+    "OXTRm is a potential therapeutic target for improving oxytocin therapeutics and addressing neurodevelopmental disorders."
   ],
   "sample_types": [
-    "Human (saliva, whole blood, PBMC)",
-    "Prairie vole (blood, brain tissue)",
-    "Rat (blood, brain tissue)",
-    "Mouse (brain tissue)"
+    "human",
+    "prairie vole",
+    "mouse",
+    "rat"
   ],
   "methods": [
     "Bibliometric analysis",
@@ -40,5 +40,6 @@
   "date_received": "17-04-24",
   "date_revised": "26-07-24",
   "date_accepted": "14-08-24",
-  "date_published": "15-11-24"
+  "date_published": "15-11-24",
+  "analyzed": "2024-12-26 09:13:05"
 }

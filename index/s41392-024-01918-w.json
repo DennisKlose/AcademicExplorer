@@ -10,18 +10,19 @@
     "Department of Hematology, Shandong Provincial Hospital, Shandong University, Jinan, Shandong 250021, China",
     "Taishan Scholars Program of Shandong Province, Jinan, Shandong 250021, China"
   ],
-  "background": "Histone post-translational modifications (HPTMs) are crucial for epigenetic regulation and are increasingly implicated in various diseases, prompting research into novel HPTMs and their therapeutic potential.",
+  "background": "Histone post-translational modifications (HPTMs) are crucial for epigenetic regulation and are increasingly implicated in various diseases.",
   "hypotheses": [
-    "Do novel histone modifications play significant roles in the development and progression of various diseases?",
-    "Can novel HPTM inhibitors be developed as effective therapeutic agents for multiple diseases?",
-    "What are the key biological functions of novel HPTMs in transcription, replication, DNA repair, and recombination?",
-    "How do novel HPTMs influence cellular metabolism and its association with disease pathogenesis?"
+    "Novel HPTMs play crucial roles in the development and progression of various diseases.",
+    "Targeting novel HPTMs offers potential therapeutic strategies for multiple diseases.",
+    "Metabolic pathways are intricately linked to HPTMs and disease pathogenesis.",
+    "Advanced epigenetic research techniques are essential for understanding the complex interplay between HPTMs and disease."
   ],
   "major_findings": [
-    "Nine novel histone modifications (lactylation, citrullination, crotonylation, succinylation, SUMOylation, propionylation, butyrylation, 2-hydroxyisobutyrylation, and 2-hydroxybutyrylation) were comprehensively reviewed.",
-    "These novel HPTMs are involved in various cellular processes, including transcription, replication, DNA repair, and metabolism, and their dysregulation is associated with the development and progression of various diseases.",
-    "Novel HPTM inhibitors targeting various targets and their emerging strategies in the treatment of multiple diseases were discussed.",
-    "Novel epigenetic research techniques and their applications in the field of novel HPTM research were briefly introduced."
+    "Nine novel HPTMs (lactylation, citrullination, crotonylation, succinylation, SUMOylation, propionylation, butyrylation, 2-hydroxyisobutyrylation, and 2-hydroxybutyrylation) were comprehensively reviewed.",
+    "These novel HPTMs are involved in various cellular processes, including transcription, replication, DNA repair, and metabolism.",
+    "Dysregulation of novel HPTMs is associated with the development and progression of various diseases, including cancers, cardiovascular diseases, infectious diseases, and neuropsychiatric disorders.",
+    "Novel HPTM inhibitors targeting various enzymes and pathways are emerging as potential therapeutic agents.",
+    "Advanced epigenetic research techniques, such as ChIP-seq, CUT&Tag, CUT&RUN, and mass spectrometry, are crucial for studying novel HPTMs."
   ],
   "sample_types": [
     "human",
@@ -34,19 +35,21 @@
     "high-resolution mass spectrometry (HRMS)",
     "proteomics",
     "bioinformatics",
-    "immunohistochemistry",
     "ChIP-seq",
     "CUT&Tag",
     "CUT&RUN",
-    "ACT-seq",
-    "scChIX-seq",
-    "TGS",
+    "RNA sequencing",
+    "immunohistochemistry",
+    "western blot",
     "LC-MS/MS",
-    "MALDI-MS Imaging"
+    "MALDI-MS Imaging",
+    "in vitro assays",
+    "animal models"
   ],
   "journal": "Signal Transduction and Targeted Therapy",
   "date_received": "28-02-24",
   "date_revised": "11-06-24",
   "date_accepted": "30-06-24",
-  "date_published": "16-09-24"
+  "date_published": "16-09-24",
+  "analyzed": "2024-12-26 09:13:27"
 }
