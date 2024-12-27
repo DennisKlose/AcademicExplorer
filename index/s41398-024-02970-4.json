@@ -21,29 +21,38 @@
     "University of Cambridge, Cambridge, UK",
     "University of Waterloo, Waterloo, ON, Canada"
   ],
-  "background": "Major depressive disorder (MDD) is a leading cause of disability, and current treatment selection methods are inefficient, highlighting the need for personalized approaches.",
+  "background": "Major depressive disorder (MDD) is a leading cause of disability, and current treatment selection is inefficient, highlighting the need for personalized approaches.",
   "hypotheses": [
-    "Machine learning can effectively predict differential treatment benefits for depression.",
-    "A combined dataset from multiple clinical trials can be used to train a robust and unbiased prediction model.",
-    "The model will generalize well to unseen data and avoid propagating harmful biases."
+    "Machine learning can predict differential treatment benefit for depression.",
+    "Combining data from disparate clinical trials is feasible and yields a robust model.",
+    "The resulting model will not propagate harmful biases."
   ],
   "major_findings": [
-    "A multi-layer dense neural network achieved an AUC of 0.7 in predicting binary remission for depression, generalizing well to held-out test and validation sets.",
-    "The model utilized 21 clinical and sociodemographic features, demonstrating the feasibility of using readily available data for prediction.",
-    "Bias testing indicated that the model did not exhibit harmful biases related to ethnicity, age, or sex."
+    "A deep learning model accurately predicted differential treatment benefit for depression across six treatments (AUC of 0.7).",
+    "The model generalized well to unseen data and showed similar performance across test and validation sets.",
+    "Bias testing indicated that the model did not amplify harmful biases related to ethnicity, age, or sex."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "How can the model be further improved to include a wider range of treatments and patient characteristics?",
+    "What are the clinical implications of using this model for personalized treatment selection?",
+    "How can the model's performance be improved in subgroups with limited data?"
   ],
   "sample_types": [
     "human"
   ],
   "methods": [
-    "Data consolidation and transformation from multiple clinical trials",
-    "Bayesian optimization for neural network architecture and hyperparameter tuning",
-    "Multi-layer dense neural network model",
-    "Bias testing using subgroup analysis"
+    "Data consolidation and transformation",
+    "Bayesian optimization",
+    "Multi-layer dense neural network",
+    "Bias testing"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "28-09-23",
-  "date_revised": "09-05-24",
-  "date_accepted": "29-05-24",
-  "date_published": "21-06-24"
+  "date_received": "28-09-2023",
+  "date_revised": "09-05-2024",
+  "date_accepted": "29-05-2024",
+  "date_published": "21-06-2024",
+  "analyzed": "27-12-2024 11:49:08"
 }

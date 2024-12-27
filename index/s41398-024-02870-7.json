@@ -15,16 +15,26 @@
     "Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON, Canada",
     "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
   ],
-  "background": "Excessive and persistent aggressiveness is a common childhood behavioral problem leading to psychiatric referrals, with half of the variance attributed to genetic factors.",
+  "background": "Excessive and persistent aggressiveness is a common behavioral problem in children, and while half of the variance is attributed to genetic factors, the underlying mechanisms remain unclear.",
   "hypotheses": [
     "To provide an overview of studies examining the genetics of childhood aggression irrespective of psychiatric diagnosis.",
     "To understand the genetic underpinnings of childhood aggression."
   ],
   "major_findings": [
-    "Candidate gene studies, especially of MAOA, DRD4, and COMT, dominate the field, but genome-wide association and epigenetic studies are increasing.",
-    "Published articles tend to be moderate in size, with variable methods of assessing aggressive behavior and inconsistent categorizations of tandem repeat variants, resulting in inconclusive findings.",
-    "The majority of studies are conducted on European, male-only or male-female mixed participants.",
-    "To understand the genetic underpinnings of childhood aggression, more research is required with larger, more diverse sample sets, consistent and reliable assessments, and standardized definitions of aggression phenotypes."
+    "Candidate gene studies, particularly of MAOA, DRD4, and COMT, continue to dominate the field, but genome-wide association and epigenetic studies are increasing.",
+    "Published studies tend to be moderate in size, with variable methods of assessing aggressive behavior and inconsistent categorizations of tandem repeat variants, leading to inconclusive findings on genetic main effects, gene-gene, and gene-environment interactions.",
+    "The majority of studies are conducted on European, male-only, or male-female mixed participants.",
+    "Genetic factors account for roughly 50-65% of the risk of high aggression."
+  ],
+  "null_findings": [
+    "Many candidate gene studies did not find significant associations between specific genes and childhood aggression.",
+    "Genome-wide association studies did not identify genome-wide significant SNPs for aggression in several studies."
+  ],
+  "new_open_questions": [
+    "What are the biological mechanisms underlying child aggression?",
+    "How do genes and environment interact to influence childhood aggression?",
+    "Are there sex-specific genetic influences on aggression?",
+    "How does the genetic architecture of aggression change across development?"
   ],
   "sample_types": [
     "human"
@@ -34,11 +44,18 @@
     "Literature search (PubMed, MEDLINE, PsycINFO)",
     "Data extraction",
     "Quality assessment",
-    "PRISMA flow chart"
+    "PRISMA flow chart",
+    "Candidate gene studies",
+    "Twin/pedigree studies",
+    "Genome-wide association studies (GWAS)",
+    "Epigenetic studies",
+    "Mendelian randomization",
+    "Polygenic risk score (PRS) analysis"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "17-03-23",
-  "date_revised": "07-03-24",
-  "date_accepted": "11-03-24",
-  "date_published": "11-06-24"
+  "date_received": "17-03-2023",
+  "date_revised": "07-03-2024",
+  "date_accepted": "11-03-2024",
+  "date_published": "11-06-2024",
+  "analyzed": "27-12-2024 11:48:51"
 }

@@ -13,7 +13,7 @@
     "School of Psychology, Swinburne University, Melbourne, VIC, Australia",
     "Department of Psychiatry and Centre for Neuroscience Studies, Queen's University, Kingston, ON, Canada"
   ],
-  "background": "This systematic review aims to update and consolidate knowledge regarding panic disorder (PD), focusing on neurochemical, genetic, and epigenetic factors.",
+  "background": "Panic disorder (PD) is a debilitating psychiatric condition with a significant impact on individuals, society, and the economy, yet its underlying neurobiological mechanisms remain poorly understood.",
   "hypotheses": [
     "Understanding the interplay of neurocircuitry and neurochemical factors in the pathophysiology of PD",
     "Identifying recent advances in genetic research related to the development and maintenance of PD",
@@ -21,24 +21,35 @@
     "Identifying sophisticated translational models to assess the empirical value of animal research in understanding the neurobiological basis and pathophysiology of PD"
   ],
   "major_findings": [
-    "Lower receptor binding of GABAA and serotonin neurotransmitters were found in the amygdala.",
-    "Elevated Interleukin 6 and leptin levels in PD patients suggest potential connections between stress-induced inflammatory changes and PD.",
+    "Lower receptor binding of GABA and serotonin neurotransmitters was found in the amygdala.",
+    "Elevated Interleukin 6 and leptin levels in PD patients suggest a potential connection between stress-induced inflammatory changes and PD.",
     "Brain-derived neurotrophic factor (BDNF) and tyrosine receptor kinase B (TrkB) signaling are implicated in panic-like responses, particularly in the dorsal periaqueductal gray (dPAG).",
-    "Altered brain lactate and glutamate concentrations, along with identified genetic polymorphisms linked to PD, further contribute to the intricate neurochemical landscape associated with the disorder."
+    "Altered brain lactate and glutamate concentrations, along with identified genetic polymorphisms, contribute to the neurochemical landscape associated with PD."
+  ],
+  "null_findings": [
+    "No significant differences were found for CAR between PD and HC.",
+    "No correlations were observed between CAR and anxiety measures in PD and HC.",
+    "In the DEX-CRH test, no significant group differences in DEX-CRH suppression rate were found between groups."
+  ],
+  "new_open_questions": [
+    "How do neuroactive steroid compounds act in PD patients?",
+    "What is the precise role of the dorsomedial hypothalamus (DMH) in the genesis and maintenance of panic disorder?",
+    "How do gene-environment interactions contribute to the development of PD?",
+    "What are the specific mechanisms by which inflammatory processes contribute to the pathophysiology of PD?"
   ],
   "sample_types": [
-    "human",
-    "animal"
+    "human"
   ],
   "methods": [
     "systematic review",
-    "PRISMA methodology",
+    "PRISMA guidelines",
     "PubMed Database search",
     "qualitative data synthesis"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "20-09-23",
-  "date_revised": "13-05-24",
-  "date_accepted": "28-05-24",
-  "date_published": "18-07-24"
+  "date_received": "20-09-2023",
+  "date_revised": "13-05-2024",
+  "date_accepted": "28-05-2024",
+  "date_published": "18-07-2024",
+  "analyzed": "27-12-2024 11:48:59"
 }

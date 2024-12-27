@@ -11,29 +11,38 @@
     "Erasmus University, Rotterdam, the Netherlands",
     "University of Essex, Colchester, United Kingdom"
   ],
-  "background": "Attachment theory is a comprehensive framework in social and developmental psychology describing how emotional bonds between infants and caregivers are formed and maintained, but lacks a cohesive biological narrative.",
+  "background": "Attachment theory is a comprehensive framework in social and developmental psychology, but lacks a cohesive biological narrative explaining the neurobiological basis of attachment behavior.",
   "hypotheses": [
     "Organized attachment patterns systematically link the two primary purposes of the attachment behavioral system: tangible protection/support and the subjective feeling of safety/security.",
     "Social allostasis-driven learning explains the dynamic adjustment of physiological balance in attachment pattern establishment and maintenance.",
-    "Epigenetic mechanisms contribute to attachment pattern formation and maintenance."
+    "Specific neurobiological circuits and epigenetic mechanisms account for the psychological forces shaping attachment behavior and the consolidation/maintenance of attachment patterns."
   ],
   "major_findings": [
-    "A detailed neurobiological model of attachment behavior is proposed, linking sensory threat perception, physiological responses, proximity-seeking, reunion, and system deactivation.",
-    "Oxytocin, dopamine, noradrenaline, cortisol, and opioids are identified as key neurobiological players in attachment, with positive feedback loops maintaining proximity-seeking.",
-    "Epigenetic modifications, particularly DNA methylation, are suggested as mechanisms underlying individual differences in attachment patterns, influenced by maternal care and early adversity."
+    "A proposed neurobiological cascade details the sequence of events in attachment behavior, from threat perception to reunion and stress alleviation.",
+    "Oxytocin plays a crucial role in facilitating prolonged proximity-seeking behavior, stress reduction, pain regulation, and memory consolidation.",
+    "Dopamine and noradrenaline contribute to the energy and motivation for attachment behavior, while cortisol provides sustained metabolic resources.",
+    "Epigenetic modifications, particularly DNA methylation, may influence the development of attachment patterns."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "Further research is needed to validate the proposed neurobiological mechanisms and their interplay in attachment behavior.",
+    "More studies are needed to directly examine the epigenetic makeup of human attachment patterns and their relationship to specific genes and environmental factors.",
+    "The exact role of various neurotransmitters and hormones in attachment behavior requires further investigation."
   ],
   "sample_types": [
     "human",
-    "animal models (rodents, primates, etc.)"
+    "animals (rodents, primates, ungulates)"
   ],
   "methods": [
-    "literature review",
-    "theoretical modeling",
+    "theoretical narrative review",
     "integration of findings from animal and human studies"
   ],
   "journal": "Communications Psychology",
-  "date_received": "02-04-24",
+  "date_received": "02-04-2024",
   "date_revised": "NA",
-  "date_accepted": "08-10-24",
-  "date_published": "16-10-24"
+  "date_accepted": "08-10-2024",
+  "date_published": "16-10-2024",
+  "analyzed": "27-12-2024 11:51:27"
 }

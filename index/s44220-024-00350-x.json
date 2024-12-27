@@ -21,23 +21,32 @@
   "background": "Loneliness is a critical risk factor for depression, and rumination may modulate this relationship.",
   "hypotheses": [
     "Rumination mediates the relationship between loneliness and depression.",
-    "In network analysis, specific loneliness items, rumination items, and depressive symptoms will be positively related."
+    "Specific loneliness items, rumination items, and depressive symptoms will be positively related to each other."
   ],
   "major_findings": [
     "Loneliness has no robust association with depressive symptoms.",
     "Ruminating on the feeling of loneliness is the key underlying factor modulating the loneliness-depression relationship."
   ],
+  "null_findings": [
+    "Loneliness has no robust association with depressive symptoms."
+  ],
+  "new_open_questions": [
+    "Future studies should explore the causal relationship between loneliness, rumination, and depression using longitudinal designs.",
+    "Further research is needed to refine the definitions and measurements of loneliness, rumination, and depression."
+  ],
   "sample_types": [
     "human"
   ],
   "methods": [
-    "network analysis",
+    "Spearman's correlations",
     "mediation analysis",
-    "Spearman's correlations"
+    "network analysis",
+    "bootstrap analysis"
   ],
   "journal": "Nature Mental Health",
-  "date_received": "20-09-23",
+  "date_received": "20-09-2023",
   "date_revised": "NA",
-  "date_accepted": "09-10-24",
-  "date_published": "19-12-24"
+  "date_accepted": "09-10-2024",
+  "date_published": "19-12-2024",
+  "analyzed": "27-12-2024 11:51:20"
 }

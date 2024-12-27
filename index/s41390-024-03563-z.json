@@ -9,18 +9,29 @@
     "Department of Neurology, University of Virginia, Charlottesville, VA, USA",
     "Department of Pediatrics, Division of Neonatology, University of Virginia, Charlottesville, VA, USA"
   ],
-  "background": "Oxytocin research is rapidly evolving and increasingly reveals that epigenetic modifications to the oxytocin receptor gene (OXTR) are functional, plastic, and reliable components of oxytocinergic system function.",
+  "background": "Oxytocin's role in social behavior and psychopathology is highly variable, prompting research into epigenetic modifications to the oxytocin receptor gene (OXTR) as a more reliable indicator of oxytocinergic system function.",
   "hypotheses": [
-    "Early life experiences shape OXTR epigenetics and impact social-developmental outcomes.",
-    "OXTR methylation serves as a predictive mechanism for neurodevelopmental outcomes.",
-    "OXTRm may impact additional cellular mechanisms with therapeutic potential.",
-    "Early life therapies may target the tuning of endogenous OXTRm."
+    "Early life environment shapes OXTR epigenetics and impacts social-developmental outcomes.",
+    "OXTR methylation (OXTRm) serves as a predictive mechanism for neurodevelopmental outcomes.",
+    "OXTRm can improve oxytocin therapeutics by informing dosage and targeting additional cellular mechanisms.",
+    "Early life therapies may target endogenous OXTRm."
   ],
   "major_findings": [
-    "Early life environment significantly impacts OXTR DNA methylation (OXTRm) in both animal models and humans.",
-    "OXTRm serves as a predictive biomarker for neurodevelopmental outcomes, including social behavior and psychopathology.",
+    "Early life experiences, such as maternal care, significantly impact OXTRm in both animal models and humans.",
+    "OXTRm is highly variable across individuals and is associated with differences in social behavior and psychopathology.",
     "Specific CpG sites within the OXTR gene show a strong association between methylation levels and gene expression.",
+    "OXTRm is malleable in early life, with critical periods of development.",
     "OXTRm is a potential therapeutic target for improving oxytocin therapeutics and addressing neurodevelopmental disorders."
+  ],
+  "null_findings": [
+    "Some studies failed to find a correlation between OXTRm and early life experiences or psychological outcomes.",
+    "Some studies found no association between OXTRm and ASD, or found opposing results in different regions of the OXTR gene."
+  ],
+  "new_open_questions": [
+    "What are the precise mechanisms by which OXTRm influences social behavior and psychopathology?",
+    "How can OXTRm be used to optimize oxytocin therapeutics and minimize adverse effects?",
+    "What are the long-term effects of early life interventions targeting OXTRm?",
+    "How do tissue-specific differences in OXTRm influence its function and response to therapeutic interventions?"
   ],
   "sample_types": [
     "human",
@@ -31,15 +42,14 @@
   "methods": [
     "Bibliometric analysis",
     "DNA methylation assays (Illumina 450k and 850k arrays)",
-    "Gene expression analysis",
     "Behavioral assessments",
-    "fMRI",
+    "Neuroimaging (fMRI)",
     "Statistical analysis"
   ],
   "journal": "Pediatric Research",
-  "date_received": "17-04-24",
-  "date_revised": "26-07-24",
-  "date_accepted": "14-08-24",
-  "date_published": "15-11-24",
-  "analyzed": "2024-12-26 09:13:05"
+  "date_received": "17-04-2024",
+  "date_revised": "26-07-2024",
+  "date_accepted": "14-08-2024",
+  "date_published": "15-11-2024",
+  "analyzed": "27-12-2024 11:47:45"
 }

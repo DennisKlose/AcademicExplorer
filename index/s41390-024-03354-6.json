@@ -42,24 +42,33 @@
   "major_findings": [
     "Sixty-six CpG sites were differentially methylated between VLBW adults and controls in the discovery cohort.",
     "Five CpG sites near GLI2 were hypermethylated in VLBW individuals and associated with lower birth weight in a meta-analysis of four independent cohorts.",
-    "Exploratory analyses in two additional cohorts revealed that 41 CpGs were differentially methylated with secondary exposures (preterm birth, SGA, gestational age, birth weight SD)."
+    "These findings suggest an epigenetic signature of preterm birth at VLBW present in adult life."
+  ],
+  "null_findings": [
+    "No single CpG site was differentially methylated in all cohorts, even those validated in the meta-analysis.",
+    "Exploratory analyses of secondary exposures (gestational age, birth weight SD, SGA) did not reveal consistent findings across all cohorts."
+  ],
+  "new_open_questions": [
+    "What are the molecular mechanisms linking preterm birth to later health outcomes?",
+    "Do the identified epigenetic differences persist further into adulthood and how do they relate to future cardiovascular risk?",
+    "What is the causal relationship between the identified epigenetic changes and the observed health outcomes?"
   ],
   "sample_types": [
-    "peripheral venous blood",
-    "cord blood"
+    "Peripheral venous blood",
+    "Cord blood"
   ],
   "methods": [
     "DNA extraction",
     "Illumina Infinium Human Methylation450 BeadChip",
-    "functional normalization",
-    "combat batch correction",
-    "linear regression",
-    "meta-analysis"
+    "Functional normalization",
+    "Combat batch correction",
+    "Linear regression",
+    "Meta-analysis"
   ],
   "journal": "Pediatric Research",
-  "date_received": "14-07-23",
-  "date_revised": "01-05-24",
-  "date_accepted": "04-06-24",
-  "date_published": "19-06-24",
-  "analyzed": "2024-12-26 09:12:57"
+  "date_received": "14-07-2023",
+  "date_revised": "01-05-2024",
+  "date_accepted": "04-06-2024",
+  "date_published": "19-06-2024",
+  "analyzed": "27-12-2024 11:47:36"
 }

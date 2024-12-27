@@ -12,17 +12,25 @@
   ],
   "background": "Histone post-translational modifications (HPTMs) are crucial for epigenetic regulation and are increasingly implicated in various diseases.",
   "hypotheses": [
-    "Novel HPTMs play crucial roles in the development and progression of various diseases.",
-    "Targeting novel HPTMs offers potential therapeutic strategies for multiple diseases.",
-    "Metabolic pathways are intricately linked to HPTMs and disease pathogenesis.",
-    "Advanced epigenetic research techniques are essential for understanding the complex interplay between HPTMs and disease."
+    "Do novel histone modifications play significant roles in disease development and progression?",
+    "Can novel HPTM inhibitors be developed as effective therapeutic agents?",
+    "What are the underlying molecular mechanisms of novel HPTMs in various diseases?"
   ],
   "major_findings": [
-    "Nine novel HPTMs (lactylation, citrullination, crotonylation, succinylation, SUMOylation, propionylation, butyrylation, 2-hydroxyisobutyrylation, and 2-hydroxybutyrylation) were comprehensively reviewed.",
+    "Nine novel histone modifications (lactylation, citrullination, crotonylation, succinylation, SUMOylation, propionylation, butyrylation, 2-hydroxyisobutyrylation, and 2-hydroxybutyrylation) were comprehensively reviewed.",
     "These novel HPTMs are involved in various cellular processes, including transcription, replication, DNA repair, and metabolism.",
-    "Dysregulation of novel HPTMs is associated with the development and progression of various diseases, including cancers, cardiovascular diseases, infectious diseases, and neuropsychiatric disorders.",
-    "Novel HPTM inhibitors targeting various enzymes and pathways are emerging as potential therapeutic agents.",
-    "Advanced epigenetic research techniques, such as ChIP-seq, CUT&Tag, CUT&RUN, and mass spectrometry, are crucial for studying novel HPTMs."
+    "Novel HPTMs are implicated in the development and progression of various diseases, including cancers, cardiovascular diseases, infectious diseases, and neuropsychiatric disorders.",
+    "Emerging strategies for targeting novel HPTMs as therapeutic targets and biomarkers were discussed.",
+    "Novel epigenetic research techniques and their applications in the field of novel HPTM research were briefly introduced."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "What are the precise biological functions and regulatory mechanisms of novel HPTMs?",
+    "Can highly efficient and selective inhibitors of novel HPTMs be developed?",
+    "What are the interplay and competitive mechanisms between novel HPTMs and other epigenetic modifications?",
+    "What are the roles of novel HPTMs in other diseases beyond those discussed in this review?"
   ],
   "sample_types": [
     "human",
@@ -35,21 +43,26 @@
     "high-resolution mass spectrometry (HRMS)",
     "proteomics",
     "bioinformatics",
-    "ChIP-seq",
-    "CUT&Tag",
-    "CUT&RUN",
     "RNA sequencing",
     "immunohistochemistry",
     "western blot",
+    "cell culture",
+    "animal models",
+    "clinical studies",
+    "ChIP-seq",
+    "CUT&Tag",
+    "CUT&RUN",
+    "ACT-seq",
+    "scChIX-seq",
+    "TGS",
     "LC-MS/MS",
     "MALDI-MS Imaging",
-    "in vitro assays",
-    "animal models"
+    "BioID"
   ],
   "journal": "Signal Transduction and Targeted Therapy",
-  "date_received": "28-02-24",
-  "date_revised": "11-06-24",
-  "date_accepted": "30-06-24",
-  "date_published": "16-09-24",
-  "analyzed": "2024-12-26 09:13:27"
+  "date_received": "28-02-2024",
+  "date_revised": "11-06-2024",
+  "date_accepted": "30-06-2024",
+  "date_published": "16-09-2024",
+  "analyzed": "27-12-2024 11:48:09"
 }

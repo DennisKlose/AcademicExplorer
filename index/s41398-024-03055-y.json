@@ -13,19 +13,30 @@
     "Department of Biotechnology and Life Sciences and Neuroscience Center, University of Insubria, Varese, Italy",
     "Behavioral Neuroscience Laboratory, University of South Santa Catarina (UNISUL), Tubarão, Brazil"
   ],
-  "background": "Rapid-acting antidepressants (RAADs) improve psychiatric disorders by modulating neuroplasticity, neurotransmission, and immunity, potentially through epigenetic mechanisms.",
+  "background": "Rapid-acting antidepressants (RAADs) improve psychiatric disorders by modulating neuroplasticity, neurotransmission, and immunity, potentially through epigenetic processes.",
   "hypotheses": [
-    "Whether epigenetic changes causally contribute to the therapeutic effects of RAADs, are a consequence thereof, or are unrelated remains unknown.",
-    "Psilocybin might increase telomerase activity and telomere length.",
-    "Ayahuasca might extinguish the fear response via an epigenetic mechanism mediated by the DMT-activated Sigma-1 receptor.",
-    "RAADs might directly interact with DNA, histones, or chromatin remodeling complexes, thus acting as direct epigenetic modulators."
+    "RAADs' therapeutic effects are causally linked to epigenetic changes.",
+    "Epigenetic changes induced by RAADs are cell-type specific.",
+    "RAADs directly interact with DNA, histones, or chromatin remodeling complexes.",
+    "The optimal dosages and regimens for clinical RAADs applications maximize desirable epigenetic outcomes and minimize undesirable ones."
   ],
   "major_findings": [
-    "Preliminary evidence indicates that administration of RAADs is accompanied by epigenetic effects which are similar to those elicited by conventional antidepressants.",
-    "Ketamine restores some of the stress-induced aberrant DNA methylation, including on the BDNF gene.",
-    "Repeated LSD largely increased the methylation level of 635 CpG sites in the PFC of adult male mice.",
-    "MDMA-assisted psychotherapy led to peripheral epigenetic changes correlated to therapeutic improvement.",
-    "Repeated ketamine during early gestation decreases the cardiac histone H3K9 acetylation level, leading to cardiac enlargement."
+    "RAADs, like conventional antidepressants, induce epigenetic changes including DNA methylation, histone modifications, and ncRNA regulation in stress-responsive brain regions.",
+    "Ketamine reverses stress-induced aberrant DNA methylation, including on the BDNF gene, and restores some stress-induced aberrant histone modifications.",
+    "Psychedelics such as LSD and DOI affect DNA methylation and histone acetylation, potentially contributing to their therapeutic effects.",
+    "MDMA-assisted psychotherapy leads to peripheral epigenetic changes correlated with therapeutic improvement.",
+    "Ayahuasca use is associated with changes in saliva methylation levels and improved mental health outcomes."
+  ],
+  "null_findings": [
+    "Ketamine administration 24 hours after the first dose does not affect whole blood miRNA levels in individuals with treatment-resistant depression.",
+    "Ayahuasca did not affect the methylation level of one CpG site within the FKBP5 gene."
+  ],
+  "new_open_questions": [
+    "Do epigenetic changes causally contribute to RAADs' therapeutic effects, or are they a consequence thereof?",
+    "What are the precise mechanisms by which RAADs induce epigenetic changes?",
+    "What is the cell type-specificity of RAAD-induced epigenetic changes?",
+    "How do the effects of RAADs on the epigenome vary with dose, regimen, and individual factors?",
+    "What are the long-term effects of RAADs on the epigenome and their clinical implications?"
   ],
   "sample_types": [
     "human",
@@ -35,11 +46,13 @@
   "methods": [
     "literature review",
     "proteomics profiling",
-    "qRT-PCR"
+    "qRT-PCR",
+    "epigenetic analysis (DNA methylation, histone modifications, ncRNA expression)"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "21-12-23",
-  "date_revised": "19-08-24",
-  "date_accepted": "21-08-24",
-  "date_published": "04-09-24"
+  "date_received": "21-12-2023",
+  "date_revised": "19-08-2024",
+  "date_accepted": "21-08-2024",
+  "date_published": "04-09-2024",
+  "analyzed": "27-12-2024 11:49:34"
 }

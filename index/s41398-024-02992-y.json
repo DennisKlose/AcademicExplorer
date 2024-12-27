@@ -7,31 +7,43 @@
   "affiliations": [
     "Department of Surgical Sciences, Functional Pharmacology and Neuroscience, Uppsala University, Uppsala, Sweden"
   ],
-  "background": "Current depression diagnosis relies solely on psychiatric evaluations, lacking objective biomarkers, thus this study investigated the potential of blood DNA methylation as a diagnostic tool.",
+  "background": "Current depression diagnosis relies solely on psychiatric evaluations, lacking objective biomarkers; this study investigates the potential of blood DNA methylation as a biomarker for depression.",
   "hypotheses": [
-    "Blood DNA methylation signatures associated with depression are stable across different populations.",
-    "Machine learning and deep learning models can accurately classify depression based on blood DNA methylation profiles.",
-    "Different data preprocessing and feature selection strategies significantly impact model performance."
+    "Blood DNA methylation patterns are associated with depression and can be used to classify individuals with and without depression.",
+    "Machine learning and deep learning models can accurately predict depression status based on blood DNA methylation data.",
+    "Depression-associated DNA methylation signatures are consistent across different populations and cohorts."
   ],
   "major_findings": [
-    "Meta-analysis across eight cohorts identified 1987 CpG sites nominally associated with depression.",
-    "Random forest classifiers achieved the highest performance in both cross-validation and hold-out tests, particularly with batch-level processed data.",
-    "Harmonized data showed low predictive power, while models with pre-selected features achieved significantly better performance.",
-    "Different algorithmic feature selection approaches may outperform limma, but random forest models performed well regardless of the strategy."
+    "Mega- and meta-analyses identified 1987 CpG sites associated with depression across multiple cohorts.",
+    "Random forest classifiers achieved the highest performance in both cross-validation and hold-out tests (AUC 0.73 and 0.76, respectively) using batch-level processed data.",
+    "Models achieved significantly better performance with pre-selected features (selection bias), reaching AUCs up to 0.91.",
+    "Enrichment analysis linked the associated genes to axon guidance and immune pathways."
+  ],
+  "null_findings": [
+    "Methylation showed low predictive power (all AUCs < 0.57) for all classifiers in cross-validation and no predictive power in hold-out tests when used with harmonized data.",
+    "None of the CpGs passed the FDR correction in the pooled differential methylation analysis.",
+    "No single CpG site was nominally significant in all included cohorts, and no CpG site was FDR-significant in more than two cohorts."
+  ],
+  "new_open_questions": [
+    "What are the biological mechanisms underlying the identified DNA methylation changes in depression?",
+    "Can larger datasets and improved data harmonization strategies enhance the predictive power of DNA methylation biomarkers for depression?",
+    "How can the identified CpG sites be validated in independent studies to confirm their reproducibility and clinical utility?"
   ],
   "sample_types": [
-    "Human blood samples"
+    "human blood samples"
   ],
   "methods": [
-    "Mega-analysis and meta-analysis of DNA methylation data",
-    "Machine learning (ML) and deep learning (DL) classification models (logistic regression, SVM, decision tree, random forest, AdaBoost, simple DNN, joint autoencoder-classifier, joint variational autoencoder-classifier)",
-    "Feature selection (limma, variance threshold, L1 regularization, ANOVA F-value, ExtraTrees)",
-    "Data preprocessing (background correction, quantile normalization, batch effect correction, cell type adjustment)",
-    "Gene ontology enrichment analysis, eQTM analysis, chromatin regulatory element analysis"
+    "DNA methylation profiling (Illumina 450K and EPIC arrays)",
+    "Differential methylation analysis (limma)",
+    "Meta-analysis",
+    "Machine learning (logistic regression, SVM, decision tree, random forest, AdaBoost)",
+    "Deep learning (autoencoders, deep neural networks)",
+    "Feature selection (limma, variance threshold, L1 regularization, ANOVA F-value, ExtraTrees)"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "28-12-23",
-  "date_revised": "24-06-24",
-  "date_accepted": "27-06-24",
-  "date_published": "15-07-24"
+  "date_received": "28-12-2023",
+  "date_revised": "24-06-2024",
+  "date_accepted": "27-06-2024",
+  "date_published": "15-07-2024",
+  "analyzed": "27-12-2024 11:49:18"
 }

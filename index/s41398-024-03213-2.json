@@ -21,30 +21,37 @@
   ],
   "background": "Depression is a heterogeneous disorder with variable manifestations and comorbidities, posing challenges for treatment and prognosis.",
   "hypotheses": [
-    "Are there distinct comorbidity-specific phenotypes of depression?",
-    "Are these phenotypes associated with different treatment patterns, clinical manifestations, and outcomes?",
-    "What are the underlying biological pathways connecting depression with other psychiatric and somatic diseases?"
+    "Are there comorbidity-specific phenotypes of depression?",
+    "Are these phenotypes associated with different treatment patterns, clinical manifestations, physiological characteristics, and prognosis?"
   ],
   "major_findings": [
-    "Five stable phenotypic categories of depression were identified, each encompassing multiple clusters driven by comorbidity patterns and symptom profiles.",
-    "These phenotypes showed distinct differences in treatment approaches, clinical presentations, and biological characteristics.",
-    "Patients in different phenotypic categories exhibited varying risks of psychiatric rehospitalization, with those in the neurological/mental comorbidity category showing the highest risk.",
-    "The findings suggest that cardiometabolic system, chronic inflammation, digestive system, neurological system, and mental and behavioral disorders play crucial roles in connecting depression with other diseases."
+    "Five stable phenotypic categories of depression were identified, each with distinct comorbidity patterns, symptomatology, biological characteristics, treatment approaches, and clinical outcomes.",
+    "Patients in categories with higher severity of mental illness had a greater risk of rehospitalization.",
+    "These phenotypes are associated with various pathways, including the cardiometabolic system, chronic inflammation, digestive system, neurological system, and mental and behavioral disorders.",
+    "The identified phenotypes exhibit notable distinctions in terms of comorbidity patterns, symptomology, biological characteristics, treatment approaches, and clinical outcomes."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "What are the underlying biological, genetic, or environmental factors driving these distinct depression phenotypes?",
+    "Can phenotype-specific treatment strategies be developed to improve treatment outcomes?",
+    "How can these findings be generalized to other populations and healthcare settings?"
   ],
   "sample_types": [
     "human"
   ],
   "methods": [
-    "Retrospective observational cohort study",
-    "Electronic medical record (EMR) data analysis",
+    "retrospective observational cohort study",
+    "electronic medical records (EMR)",
     "K-means clustering",
-    "Visualization methods (Chord diagram, Radar chart, Boxplot)",
-    "Adjusted Cox proportional hazards model",
-    "Kaplan-Meier analysis"
+    "visualization methods",
+    "adjusted Cox proportional hazards model"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "10-05-24",
-  "date_revised": "05-12-24",
-  "date_accepted": "16-12-24",
-  "date_published": "24-12-24"
+  "date_received": "10-05-2024",
+  "date_revised": "05-12-2024",
+  "date_accepted": "16-12-2024",
+  "date_published": "24-12-2024",
+  "analyzed": "27-12-2024 11:50:20"
 }

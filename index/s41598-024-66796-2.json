@@ -22,27 +22,37 @@
     "APC Microbiome Ireland",
     "German Center for Cardiovascular Diseases (DZHK), Partner Site Greifswald"
   ],
-  "background": "Intense psychosocial stress during early life has detrimental effects on health, and the developing microbiome's sensitivity to stress contributes to long-term health.",
+  "background": "Intense psychosocial stress during early life has detrimental effects on health-disease balance in later life, and the developing microbiome contributes to long-term health.",
   "hypotheses": [
-    "The oral microbiome interacts with the stress response, modifying the effect of stress on the HPA axis and human metabolism."
+    "The oral microbiome interacts with the stress response, modifying the effect of stress on the HPA-axis and human metabolism."
   ],
   "major_findings": [
-    "Twelve genera in the oral microbiome interacted with the host's cortisol-glucose response to stress, influencing cortisol and glucose release and clearance.",
-    "Diversity and evenness of the buccal microbiome interacted with glucose kinetics, while salivary microbiome diversity interacted with cortisol kinetics.",
-    "Specific taxa influenced glucose and cortisol release profiles and kinetics following stress exposure."
+    "Twelve genera exhibited an interaction with the host's cortisol-glucose response to stress, influencing cortisol and glucose release profiles and kinetics.",
+    "Diversity and evenness of the buccal microbiome interacted with glucose kinetics.",
+    "Specific taxa in the buccal and salivary microbiomes interacted with cortisol response to stress, influencing cortisol clearance."
+  ],
+  "null_findings": [
+    "The salivary microbiome showed no interactions with glucose stress response.",
+    "No significant association was found between several taxa and baseline cortisol or glucose levels."
+  ],
+  "new_open_questions": [
+    "What are the exact mechanisms by which the oral microbiome interacts with the HPA axis and stress response?",
+    "What is the directionality of the interaction between the microbiome and the stress response?"
   ],
   "sample_types": [
-    "human saliva",
-    "human buccal swabs"
+    "saliva",
+    "buccal swabs"
   ],
   "methods": [
-    "Socially evaluated cold pressor test (seCPT)",
     "16S-V4 sequencing",
+    "socially evaluated cold pressor test (seCPT)",
+    "glucose and cortisol measurements",
     "mixed-effect linear regressions"
   ],
   "journal": "Scientific Reports",
-  "date_received": "22-02-24",
+  "date_received": "22-02-2024",
   "date_revised": "NA",
-  "date_accepted": "03-07-24",
-  "date_published": "09-07-24"
+  "date_accepted": "03-07-2024",
+  "date_published": "09-07-2024",
+  "analyzed": "27-12-2024 11:50:51"
 }

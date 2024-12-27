@@ -40,12 +40,12 @@ app = dash.Dash(
 
 def parse_date_string(date_str: str) -> date:
     try:
-        return datetime.strptime(date_str, "%d-%m-%y").date()
+        return datetime.strptime(date_str, "%d-%m-%Y").date()
     except ValueError:
         try:
             return datetime.strptime(date_str, "%Y-%m-%d").date()
         except ValueError:
-            raise ValueError(f"Date must be in DD-MM-YY format, got: {date_str}")
+            raise ValueError(f"Date must be in DD-MM-YYYY format, got: {date_str}")
 
 DateField = Annotated[date, BeforeValidator(parse_date_string)]
 
@@ -56,6 +56,8 @@ class PaperAnalysis(BaseModel):
     background: str = "NA"
     hypotheses: List[str] = []
     major_findings: List[str] = []
+    null_findings: List[str] = []
+    new_open_questions: List[str] = []
     sample_types: List[str] = []
     methods: List[str] = []
     journal: str = "NA"
@@ -67,8 +69,8 @@ class PaperAnalysis(BaseModel):
     
     model_config = ConfigDict(
         json_encoders={
-            date: lambda d: d.strftime("%d-%m-%y") if d else "NA",
-            datetime: lambda dt: dt.strftime("%Y-%m-%d %H:%M:%S")
+            date: lambda d: d.strftime("%d-%m-%Y") if d else "NA",
+            datetime: lambda dt: dt.strftime("%d-%m-%Y %H:%M:%S")
         }
     )
 
@@ -192,7 +194,6 @@ app.layout = dbc.Container([
     )
 ], fluid=True)
 
-# Analysis prompt
 ANALYSIS_PROMPT = """
 Analyze this scientific paper and provide ONLY a JSON response with no additional text or markdown formatting. The response should contain the following fields:
 {
@@ -202,17 +203,19 @@ Analyze this scientific paper and provide ONLY a JSON response with no additiona
     "background": "one sentence describing background/relevance",
     "hypotheses": ["list of major hypotheses/questions"],
     "major_findings": ["list of key findings, 1-2 sentences each"],
+    "null_findings": ["list of negative findings, i.e. no effect was found, 1-2 sentences each"],
+    "new_open_questions": ["list of new questions raised by findings, 1-2 sentences each"],
     "sample_types": ["types of samples used (human/mouse/other)"],
     "methods": ["list of methods and computational techniques used"],
     "journal": "journal name",
-    "date_received": "DD-MM-YY or NA",
-    "date_revised": "DD-MM-YY or NA",
-    "date_accepted": "DD-MM-YY or NA",
-    "date_published": "DD-MM-YY or NA"
+    "date_received": "DD-MM-YYYY or NA",
+    "date_revised": "DD-MM-YYYY or NA",
+    "date_accepted": "DD-MM-YYYY or NA",
+    "date_published": "DD-MM-YYYY or NA"
 }
 Return ONLY the JSON with the actual values, with no markdown formatting or code blocks.
 For any field where data cannot be found, use "NA" for text fields or ["NA"] for list fields.
-For dates, use DD-MM-YY format (e.g., "01-03-23") or "NA" if not found.
+For dates, use DD-MM-YYYY format (e.g., "01-03-2023") or "NA" if not found.
 """
 
 def process_pdfs_thread():
@@ -249,8 +252,16 @@ def process_pdfs_thread():
                 
                 # Process response
                 cleaned_response = clean_json_response(response.text)
+                # Parse JSON first
+                response_data = json.loads(cleaned_response)
+                # Remove analyzed field if it exists in the response
+                if 'analyzed' in response_data:
+                    del response_data['analyzed']
+                # Create new JSON string with the cleaned data
+                cleaned_response = json.dumps(response_data)
+                
+                # Now validate with Pydantic model which will set the current datetime
                 paper_analysis = PaperAnalysis.model_validate_json(cleaned_response)
-                paper_analysis.analyzed = datetime.now()
                 
                 # Save analysis to JSON file
                 json_output = paper_analysis.model_dump_json(indent=2)
@@ -372,6 +383,10 @@ def create_analysis_content(analysis_data):
         html.Ul([html.Li(hyp) for hyp in analysis_data["hypotheses"]]),
         html.H5("Major Findings"),
         html.Ul([html.Li(finding) for finding in analysis_data["major_findings"]]),
+        html.H5("Null Findings"),
+        html.Ul([html.Li(finding) for finding in analysis_data["null_findings"]]),
+        html.H5("New Open Questions"),
+        html.Ul([html.Li(question) for question in analysis_data["new_open_questions"]]),
         html.H5("Sample Types"),
         html.P(", ".join(analysis_data["sample_types"])),
         html.H5("Methods"),
@@ -387,7 +402,8 @@ def create_analysis_content(analysis_data):
                     f"Received: {analysis_data['date_received']}", html.Br(),
                     f"Revised: {analysis_data['date_revised']}", html.Br(),
                     f"Accepted: {analysis_data['date_accepted']}", html.Br(),
-                    f"Published: {analysis_data['date_published']}"
+                    f"Published: {analysis_data['date_published']}", html.Br(),
+                    f"Analysis Date: {analysis_data['analyzed']}"
                 ])
             ], width=6)
         ])

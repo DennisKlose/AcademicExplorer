@@ -23,12 +23,21 @@
   ],
   "background": "Lifestyle significantly impacts overall health and well-being, and classifying individuals based on metabotypes and lifestyle phenotypes is promising for precision chronic disease prevention and management.",
   "hypotheses": [
-    "Classifying individuals based on metabotypes and lifestyle phenotypes using exploratory factor analyses, cluster definition, and machine-learning algorithms is promising for precision chronic disease prevention and management."
+    "Classifying individuals based on metabotypes and lifestyle phenotypes using exploratory factor analyses, cluster definition, and machine-learning algorithms is promising for precision chronic disease prevention and management.",
+    "A computational algorithm can be developed to quickly categorize individuals into lifemetabotypes based on responses to a set of accessible questions."
   ],
   "major_findings": [
-    "Five clusters were identified, combining metabolic, lifestyle, and personal data: \"Westernized Millennial\", \"Healthy\", \"Mediterranean Young Adult\", \"Pre-morbid\", and \"Pro-morbid\".",
-    "A computational algorithm was elicited, which allowed quick cluster assignment based on responses (\"lifemetabotypes\").",
-    "This machine-learning approach facilitates personalized interventions and precision lifestyle recommendations, supporting online methods for targeted health maintenance and chronic disease prevention."
+    "Five clusters of lifemetabotypes were identified, combining metabolic, lifestyle, and personal data: Westernized Millennial, Healthy, Mediterranean Young Adult, Pre-morbid, and Pro-morbid.",
+    "A computational algorithm was developed to classify individuals into these five lifemetabotypes based on a set of key variables, achieving high classification accuracy (77.5% - 94.6%).",
+    "The lifemetabotype clusters differed significantly in terms of age, sex, lifestyle factors, cardiometabolic health, and health-related quality of life."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "How can these lifemetabotype classifications be used to develop more effective personalized interventions and precision lifestyle recommendations?",
+    "What are the long-term health outcomes associated with each lifemetabotype, and how can these be used to inform public health strategies?",
+    "How can the computational algorithm be further validated and refined in diverse populations and settings?"
   ],
   "sample_types": [
     "human"
@@ -43,8 +52,9 @@
     "Random forest model"
   ],
   "journal": "Scientific Reports",
-  "date_received": "21-05-24",
+  "date_received": "21-05-2024",
   "date_revised": "NA",
-  "date_accepted": "01-10-24",
-  "date_published": "22-10-24"
+  "date_accepted": "01-10-2024",
+  "date_published": "22-10-2024",
+  "analyzed": "27-12-2024 11:51:01"
 }

@@ -12,28 +12,38 @@
   "background": "Circadian rhythmicity plays a crucial role in human aging, and wearable technology offers a scalable way to assess it.",
   "hypotheses": [
     "CosinorAge, a digital biomarker derived from wearable-based circadian rhythmicity, reflects biological aging and predicts mortality, morbidity, and age-related functional decline.",
-    "Integrating circadian rhythmicity enhances the prediction of biological aging compared to physical activity alone."
+    "Circadian rhythmicity enhances the prediction of biological aging compared to physical activity alone."
   ],
   "major_findings": [
-    "A one-year increase in CosinorAge corresponded to 8-12% higher all-cause and cause-specific mortality risks and 3-14% increased prospective incidences of age-related diseases.",
+    "CosinorAge, a one-year increase, corresponded to 8-12% higher all-cause and cause-specific mortality risks and 3-14% increased prospective incidences of age-related diseases.",
     "CosinorAge captured a non-linear decline in resilience and physical functioning, evidenced by an 8–33% reduction in self-rated health and a 3-23% decline in health-related quality of life.",
-    "Young and fast agers showed a substantially delayed acrophase compared to slow agers, with the difference diminishing in older adults.",
-    "Integrating circadian rhythmicity significantly enhanced the predictive performance of biological aging compared to physical activity alone."
+    "Integrating circadian rhythmicity significantly enhanced the predictive performance of biological aging compared to physical activity alone.",
+    "Young and fast agers showed a substantially delayed acrophase compared to slow agers, with the difference diminishing in older adults."
+  ],
+  "null_findings": [
+    "Associations between CosinorAge and CVD- and diabetes-specific mortalities were only significant among men.",
+    "Incident risks of CVD, cancer, and chronic respiratory diseases were not statistically significant after adjusting for covariates in the UKB validation cohort."
+  ],
+  "new_open_questions": [
+    "How does the non-linear relationship between CosinorAge and age-related functional performance vary across different age groups and sexes?",
+    "What are the specific mechanisms by which circadian rhythm disturbances contribute to the development of neurodegenerative diseases?",
+    "Can repeated, long-term measurements of circadian rhythms using digital wearables improve the accuracy and reliability of CosinorAge?"
   ],
   "sample_types": [
     "human"
   ],
   "methods": [
-    "Wearable-based accelerometry data from UK Biobank and NHANES",
-    "Cosinor analysis to extract circadian parameters (MESOR, amplitude, acrophase)",
-    "Gompertz model to estimate biological age (CosinorAge)",
-    "Cox proportional hazards models to assess associations with mortality and disease incidence",
-    "Generalized linear models to analyze associations with functional performance",
-    "Correlation analysis with established biological age measures (KDM BA, PhenoAge)"
+    "Wearable-based accelerometry",
+    "Cosinor analysis",
+    "Cox proportional hazards models",
+    "Generalized linear models",
+    "Kaplan-Meier analysis",
+    "Restricted cubic spline regression"
   ],
   "journal": "npj Digital Medicine",
-  "date_received": "11-12-23",
-  "date_revised": "12-04-24",
-  "date_accepted": "12-04-24",
-  "date_published": "04-06-24"
+  "date_received": "11-12-2023",
+  "date_revised": "NA",
+  "date_accepted": "12-04-2024",
+  "date_published": "04-06-2024",
+  "analyzed": "27-12-2024 11:51:09"
 }

@@ -42,29 +42,38 @@
     "What are the multiscale genetic substrates for these connectome-based markers?"
   ],
   "major_findings": [
-    "A common bridging factor (cb factor) was identified from 12 bridging symptoms, predicting comorbidity with robust generalizability.",
-    "This cb factor was characterized by connectome patterns in attention and frontoparietal networks, which were moderately heritable.",
-    "Genetic connectome-transcriptional markers associated with vasculature and cerebellar development, particularly during late childhood to young adulthood, were identified.",
-    "These findings reveal a general factor of bridging symptoms and its neurobiological architectures, enriching neurogenetic understanding of depression-anxiety comorbidity."
+    "A common bridging factor (cb factor) was identified from 12 bridging symptoms, predicting comorbidity robustly.",
+    "This cb factor was predicted using edge-centric connectomes (eFCs), particularly in attention and frontoparietal networks.",
+    "These eFC patterns were moderately heritable and associated with genetic markers enriched in vasculature and cerebellar development, especially during late childhood to young adulthood.",
+    "Connectome-transcriptional markers were identified, revealing neurobiological enrichment in vasculature and cerebellar development, particularly during late childhood to young adulthood."
+  ],
+  "null_findings": [
+    "NA"
+  ],
+  "new_open_questions": [
+    "How does the cb factor generalize to clinical populations and other assessment methods?",
+    "What are the precise mechanisms by which genetic variations influence the identified eFC patterns and their association with the cb factor?",
+    "Can these findings inform the development of targeted interventions for depression-anxiety comorbidity?"
   ],
   "sample_types": [
-    "human"
+    "Human"
   ],
   "methods": [
     "EBICglasso graph-theoretical model",
-    "factor analysis",
-    "edge-centric brain connectome-based feature (eFC) calculation",
-    "eFC connectome-based predictive model (eCPM)",
-    "inter-subject representation similarity analysis (RSA)",
+    "Factor analysis",
+    "Edge-centric functional connectivity (eFC) calculation",
+    "Support vector regression (eCPM)",
+    "Representation similarity analysis (RSA)",
     "ACE model",
     "Allen Human Brain Atlas (AHBA)",
-    "representation similarity pattern analysis",
-    "PLS regression",
-    "gene expression enrichment analysis"
+    "Partial least squares (PLS) regression",
+    "Metascape",
+    "Specific Expression Analysis (SEA)"
   ],
   "journal": "Nature Communications",
-  "date_received": "07-06-24",
+  "date_received": "07-06-2024",
   "date_revised": "NA",
-  "date_accepted": "25-11-24",
-  "date_published": "04-12-24"
+  "date_accepted": "25-11-2024",
+  "date_published": "04-12-2024",
+  "analyzed": "27-12-2024 11:50:43"
 }

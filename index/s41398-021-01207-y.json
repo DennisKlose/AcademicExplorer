@@ -19,22 +19,34 @@
     "Maltreatment is associated with epigenetic changes that may subsequently serve as mechanisms of disease."
   ],
   "major_findings": [
-    "Childhood maltreatment is associated with altered DNA methylation in both children and adults, but findings show considerable variability across studies and genes.",
-    "In children, maltreatment is associated with higher methylation of NR3C1 and lower methylation of FKBP5, while in adults, findings are inconsistent across studies.",
-    "Epigenome-wide studies suggest that maltreatment is associated with widespread methylation changes across the genome, but findings vary across studies and samples.",
-    "Childhood adversity is associated with accelerated epigenetic aging in both children and adults, but findings are not consistently replicated across studies."
+    "Childhood maltreatment is associated with altered DNA methylation in both children and adults.",
+    "Consistent findings across multiple studies show that childhood maltreatment is associated with altered methylation of genes that regulate glucocorticoid signaling, including NR3C1 and FKBP5.",
+    "Epigenome-wide studies suggest that maltreatment is associated with variation in methylation across the genome, although specific genes and pathways vary across studies.",
+    "Childhood adversity is associated with accelerated epigenetic aging in both children and adults."
+  ],
+  "null_findings": [
+    "Several studies found no association between childhood maltreatment and methylation of specific genes, such as OXTR.",
+    "Some studies found no association between childhood maltreatment and global DNA methylation changes."
+  ],
+  "new_open_questions": [
+    "What are the specific mechanisms by which childhood maltreatment alters DNA methylation?",
+    "How do these epigenetic changes contribute to the long-term health consequences of maltreatment?",
+    "What are the interactions between genetic and environmental factors in shaping the epigenetic effects of maltreatment?",
+    "How can we use epigenetic markers to identify individuals at risk for developing mental and physical health problems following maltreatment?"
   ],
   "sample_types": [
-    "Human"
+    "human"
   ],
   "methods": [
-    "Systematic review of literature",
-    "Qualitative synthesis of empirical articles",
+    "systematic review",
+    "meta-analysis",
+    "qualitative synthesis",
     "PRISMA guidelines"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "28-11-19",
-  "date_revised": "18-12-20",
-  "date_accepted": "07-01-21",
-  "date_published": "19-02-21"
+  "date_received": "28-11-2019",
+  "date_revised": "18-12-2020",
+  "date_accepted": "07-01-2021",
+  "date_published": "19-02-2021",
+  "analyzed": "27-12-2024 11:48:35"
 }

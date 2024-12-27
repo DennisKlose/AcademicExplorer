@@ -40,15 +40,23 @@
   ],
   "background": "Maternal stress and depression during pregnancy and infancy are associated with adverse child health outcomes and altered DNA methylation, but the biological mechanisms are unclear.",
   "hypotheses": [
-    "Prenatal stress and depression are associated with differences in newborn cord blood mononuclear cell DNA methylation.",
-    "Postnatal stress and depression are associated with differences in infant peripheral blood mononuclear cell DNA methylation at 12 months of age.",
+    "Prenatal stress and depression are associated with differences in newborn cord blood mononuclear cell DNA methylation (CBMC-DNAm).",
+    "Postnatal stress and depression are associated with differences in 12-month-old child peripheral blood mononuclear cell DNA methylation (PBMC-DNAm).",
     "The cumulative effect of prenatal and postnatal adversity influences infant DNA methylation."
   ],
   "major_findings": [
-    "Prenatal stress was associated with differential DNA methylation at 8 CpG sites in newborns, and prenatal depression at 2 CpG sites.",
-    "Postnatal stress was associated with differential DNA methylation at 8 CpG sites in 12-month-olds, and postnatal depression at 11 CpG sites.",
-    "Composite prenatal and postnatal adversity scores identified additional CpG sites associated with differential DNA methylation, suggesting a cumulative effect of maternal mental health on the infant epigenome.",
-    "Several associated genes (PLAGL1, HYMAI, BRD2, and ERC2) have been implicated in adverse fetal outcomes and neuropsychiatric disorders."
+    "Prenatal stress was significantly associated with differential CBMC-DNAm at 8 CpG sites, and prenatal depression at 2 CpG sites.",
+    "Postnatal stress was significantly associated with differential PBMC-DNAm at 8 CpG sites, and postnatal depression at 11 CpG sites.",
+    "Composite prenatal and postnatal adversity scores were associated with differential DNA methylation at multiple CpG sites, suggesting a cumulative effect of maternal mental health on infant DNAm."
+  ],
+  "null_findings": [
+    "After adjusting for inflation and unmeasured confounding, many of the initial associations between maternal stress/depression and infant DNA methylation were no longer significant.",
+    "Functional enrichment analysis did not reveal any significantly enriched biological pathways associated with the differentially methylated CpG sites."
+  ],
+  "new_open_questions": [
+    "What are the specific biological mechanisms by which maternal stress and depression influence infant DNA methylation?",
+    "Do the identified differentially methylated CpG sites have functional consequences for child development and health?",
+    "How do the cumulative effects of prenatal and postnatal adversity on DNA methylation contribute to long-term health outcomes?"
   ],
   "sample_types": [
     "Human cord blood mononuclear cells (CBMC)",
@@ -63,8 +71,9 @@
     "Methylation quantitative trait loci (mQTL) mapping"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "16-02-24",
-  "date_revised": "24-09-24",
-  "date_accepted": "02-10-24",
-  "date_published": "22-10-24"
+  "date_received": "16-02-2024",
+  "date_revised": "24-09-2024",
+  "date_accepted": "02-10-2024",
+  "date_published": "22-10-2024",
+  "analyzed": "27-12-2024 11:50:02"
 }

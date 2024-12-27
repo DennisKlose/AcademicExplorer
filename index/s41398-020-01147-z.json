@@ -50,26 +50,39 @@
     "Faculty of Health Sciences, Simon Fraser University, Burnaby, BC, Canada",
     "BC Children's Hospital Research Institute, Vancouver, BC, Canada"
   ],
-  "background": "Childhood adversity (CA) is a major risk factor for stress-related psychiatric and medical disorders, and epigenetic mechanisms, such as DNA methylation, may be involved.",
+  "background": "Childhood adversity (CA) is a major risk factor for stress-related psychiatric and other medical disorders, and epigenetic mechanisms, such as DNA methylation, may be involved.",
   "hypotheses": [
-    "The variability of DNA methylation is best explained by the combined effects of genotype and CA, rather than CA alone.",
-    "The combined effects of genotype and CA on DNA methylation variability are consistent across different ages and tissues."
+    "Exposure to CA, cis genotype (G), and their additive and interactive effects contribute to DNA methylation (DNAm) variability.",
+    "The proportion of explained variance varies with time to exposure, i.e., effects of CA measured in childhood are qualitatively or quantitatively different than when measured later in life."
   ],
   "major_findings": [
-    "For the majority of CpG sites, DNA methylation variability was best explained by additive or interactive effects of genotype and CA, not CA alone.",
-    "Across five cohorts spanning a wide age range, 1672 CpG sites showed consistent best-fitting models, with G × CA interactions explaining most variance. These sites mapped to genes enriched in brain-specific transcripts and functions related to development and synaptic function."
+    "For the majority of sites in adult cohorts, DNAm variability was best explained by additive (G+CA) or interactive (G × CA) effects of genotype and CA, but almost never by CA alone.",
+    "Across ages and tissues, 1672 DNAm sites showed consistency of the best model in all five cohorts, with G × CA interactions explaining most variance; these sites mapped to genes enriched in brain-specific transcripts and Gene Ontology terms related to development and synaptic function."
+  ],
+  "null_findings": [
+    "CA alone was almost never the strongest driver of DNAm variability; additive or interactive effects of genotype and environment explained DNAm variability best in the majority of CpGs.",
+    "No significant tissue-specific enrichments were found for control subsets of genes."
+  ],
+  "new_open_questions": [
+    "Are the identified combined effects of genotype and CA stable across the life course?",
+    "What are the specific biological mechanisms underlying the observed G × CA interactions on DNAm?"
   ],
   "sample_types": [
-    "Human blood, saliva"
+    "human blood",
+    "human saliva"
   ],
   "methods": [
-    "DNA methylation analysis (Illumina Infinium HumanMethylation450K BeadChips and Infinium MethylationEPIC BeadChip)",
-    "Genotyping (Illumina OmniQuad, HumanOmniExpress BeadChips, Illumina GSA-24 v2.0 BeadChips, Illumina 610k chips)",
-    "Statistical analysis (linear regression, variance explained, enrichment analysis)"
+    "DNA methylation analysis using Illumina Infinium HumanMethylation450K BeadChips and Infinium MethylationEPIC BeadChip",
+    "Genome-wide SNP genotyping",
+    "Linear regression models",
+    "Gene-set enrichment analysis",
+    "Functional normalization",
+    "ComBat batch effect correction"
   ],
   "journal": "Translational Psychiatry",
-  "date_received": "19-11-20",
-  "date_revised": "02-12-20",
-  "date_accepted": "04-12-20",
-  "date_published": "01-02-21"
+  "date_received": "19-11-2020",
+  "date_revised": "02-12-2020",
+  "date_accepted": "04-12-2020",
+  "date_published": "01-02-2021",
+  "analyzed": "27-12-2024 11:48:20"
 }

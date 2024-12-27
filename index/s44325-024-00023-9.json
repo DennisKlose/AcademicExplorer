@@ -29,7 +29,7 @@
     "Center for Healthy Aging, Peking University Health Science Center, Beijing, China",
     "Peking University Institute of Environmental Medicine, Beijing, China"
   ],
-  "background": "There is growing interest in the linkage of cardiovascular health (CVH) with depression/anxiety, but evidence on the 'Life's Essential 8' CVH score is scarce.",
+  "background": "There is growing interest in the linkage of cardiovascular health (CVH) with depression/anxiety, but evidence on the \"Life's Essential 8\" CVH score is scarce.",
   "hypotheses": [
     "The updated CVH score could act as a better predictor for the CVD-related risks of late-life depression and/or anxiety.",
     "Genetic predisposition of depression/anxiety could modify the relationships between CVH and incident depression/anxiety."
@@ -38,11 +38,19 @@
     "A 100-point decrease in CVH score was associated with an increased risk of incident either disorder, depression, and anxiety.",
     "Poor CVH is a risk factor for incident late-life depression/anxiety symptoms in middle-aged and older adults, and healthy behaviors could be targeted for risk assessment and intervention."
   ],
+  "null_findings": [
+    "The interaction between CVH score and PRS was not significant for either disorder, depression, or anxiety.",
+    "The 7-item CVH score (without sleep) had lower predictive power compared to the 8-item score."
+  ],
+  "new_open_questions": [
+    "How can we better characterize depression/anxiety risk with more novel SNPs identified by upcoming GWASs?",
+    "What are the specific mechanisms by which sleep quality plays a central role in linking CVH with depression/anxiety?"
+  ],
   "sample_types": [
     "human"
   ],
   "methods": [
-    "prospective cohort study",
+    "population-based prospective cohort study",
     "linear regression",
     "logistic regression",
     "Cox proportional hazards models",
@@ -50,8 +58,9 @@
     "competing risk regression model"
   ],
   "journal": "npj Cardiovascular Health",
-  "date_received": "22-04-24",
-  "date_revised": "27-08-24",
+  "date_received": "22-04-2024",
+  "date_revised": "27-08-2024",
   "date_accepted": "NA",
-  "date_published": "13-09-24"
+  "date_published": "13-09-2024",
+  "analyzed": "27-12-2024 11:51:35"
 }

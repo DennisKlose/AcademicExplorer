@@ -19,7 +19,7 @@
     "Child Study Center, Yale School of Medicine, New Haven, CT, USA",
     "Wu Tsai Institute, Yale University, New Haven, CT, USA"
   ],
-  "background": "The human connectome undergoes rapid changes during the perinatal period, and a better understanding of these developmental trajectories is needed.",
+  "background": "Understanding the developmental trajectories of the connectome in the perinatal period remains incomplete, and brain age prediction offers a novel approach to normative modeling.",
   "hypotheses": [
     "How do structural and functional connectomes mature during the perinatal period?",
     "How correlated is structural and functional development at this age?",
@@ -29,8 +29,18 @@
   ],
   "major_findings": [
     "Structural and functional connectomes accurately predicted postmenstrual age (PMA) for term and preterm infants.",
-    "Predicted ages from each modality were correlated, and nearly all canonical brain networks generated accurate PMA prediction.",
+    "Predicted ages from each modality were correlated, with structural connectomes showing greater accuracy.",
+    "Nearly all canonical brain networks generated accurate PMA prediction, even putatively later-developing ones.",
     "Brain age gaps (BAGs) were associated with perinatal exposures and toddler behavioral outcomes."
+  ],
+  "null_findings": [
+    "For term infants, associations with alcohol use, postnatal depression, and gestational diabetes did not survive FDR correction.",
+    "For term infants, associations with BSID language, CBCL externalizing problems, ECBQ surgency, and ECBQ negative affect did not survive FDR correction."
+  ],
+  "new_open_questions": [
+    "How do different development patterns in structural networks between term and preterm groups affect the correlation between structural and functional ages?",
+    "What are the specific biological pathways from exposures to altered brain development?",
+    "What is the long-term impact of BAGs on toddler behaviors and development?"
   ],
   "sample_types": [
     "human"
@@ -40,13 +50,14 @@
     "DTI",
     "connectome-based predictive modeling (CPM)",
     "support vector regression (SVR)",
-    "10-fold cross-validation",
     "Pearson's correlation",
-    "linear regression"
+    "linear regression",
+    "Benjamini-Hochberg false discovery rate (FDR) method"
   ],
   "journal": "Nature Communications",
-  "date_received": "15-05-24",
+  "date_received": "15-05-2024",
   "date_revised": "NA",
-  "date_accepted": "13-11-24",
-  "date_published": "26-11-24"
+  "date_accepted": "13-11-2024",
+  "date_published": "26-11-2024",
+  "analyzed": "27-12-2024 11:50:28"
 }
