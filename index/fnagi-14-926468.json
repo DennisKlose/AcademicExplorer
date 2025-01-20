@@ -1,0 +1,56 @@
+{
+  "title": "Epigenetic clock indicates accelerated aging in glial cells of progressive multiple sclerosis patients",
+  "authors": [
+    "Lara Kular",
+    "Dennis Klose",
+    "Amaya Urdánoz-Casado",
+    "Ewoud Ewing",
+    "Nuria Planell",
+    "David Gomez-Cabrero",
+    "Maria Needhamsen",
+    "Maja Jagodic"
+  ],
+  "affiliations": [
+    "Department of Clinical Neuroscience, Center for Molecular Medicine, Karolinska University Hospital, Karolinska Institutet, Stockholm, Sweden",
+    "Neuroepigenetics Laboratory, Navarrabiomed, Hospital Universitario de Navarra (HUN), Universidad Pública de Navarra (UPNA), IdiSNA, Pamplona, Spain",
+    "Translational Bioinformatics Unit, Navarrabiomed, Hospital Universitario de Navarra (HUN), Universidad Pública de Navarra (UPNA), IdiSNA, Pamplona, Spain",
+    "Unit of Computational Medicine, Department of Medicine, Solna, Center for Molecular Medicine, Karolinska University Hospital, Karolinska Institutet, Stockholm, Sweden",
+    "Mucosal and Salivary Biology Division, King's College London Dental Institute, London, United Kingdom",
+    "Biological and Environmental Sciences and Engineering Division, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia"
+  ],
+  "background": "Multiple sclerosis (MS) is a chronic inflammatory neurodegenerative disease, and evidence suggests disease progression depends on age and inflammation within the CNS.",
+  "hypotheses": [
+    "Epigenetic aging is accelerated in the brain tissue of progressive MS patients compared to controls.",
+    "Glial cells in progressive MS patients exhibit accelerated biological aging compared to controls."
+  ],
+  "major_findings": [
+    "Glial cells from progressive MS patients showed a significant 3.6-year increase in age acceleration residuals compared to controls using the Cortical clock, even after adjusting for covariates.",
+    "No significant difference in age acceleration was observed in bulk brain tissue or neurons between MS patients and controls after adjusting for covariates."
+  ],
+  "null_findings": [
+    "The 4.8-year age acceleration found in MS neurons did not remain significant after adjusting for covariates.",
+    "No significant difference in age acceleration residuals was observed in bulk brain tissue between MS patients and controls."
+  ],
+  "new_open_questions": [
+    "What are the specific mechanisms driving accelerated aging in glial cells of progressive MS patients?",
+    "Do sex differences in epigenetic aging contribute to the clinical course of MS?",
+    "How do the findings translate to other neurological diseases?"
+  ],
+  "sample_types": [
+    "human bulk brain tissue",
+    "human sorted neuronal nuclei",
+    "human sorted glial nuclei",
+    "human whole blood"
+  ],
+  "methods": [
+    "DNA methylation analysis using Illumina 450K and EPIC arrays",
+    "Epigenetic clock analysis using Horvath's clock and the Cortical clock",
+    "Statistical analysis including linear models, MANCOVA, and Tukey HSD test"
+  ],
+  "journal": "Frontiers in Aging Neuroscience",
+  "date_received": "22-04-2022",
+  "date_revised": "NA",
+  "date_accepted": "18-07-2022",
+  "date_published": "24-08-2022",
+  "analyzed": "27-12-2024 13:28:56"
+}

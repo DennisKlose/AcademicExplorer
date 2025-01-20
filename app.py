@@ -19,6 +19,9 @@ from pydantic import BaseModel, ConfigDict, Field
 from typing_extensions import Annotated
 from pydantic.functional_validators import BeforeValidator
 
+#TODO: Review and article distinction
+#TODO: Enable the follow-up question for unknown terms
+
 # Progress tracking class
 @dataclass
 class ProgressState:
@@ -202,7 +205,7 @@ Analyze this scientific paper and provide ONLY a JSON response with no additiona
     "affiliations": ["list of universities and other author affiliations"],
     "background": "one sentence describing background/relevance",
     "hypotheses": ["list of major hypotheses/questions"],
-    "major_findings": ["list of key findings, 1-2 sentences each"],
+    "major_findings": ["list of key findings, 1-2 sentences each, only statements grounded in the original text"],
     "null_findings": ["list of negative findings, i.e. no effect was found, 1-2 sentences each"],
     "new_open_questions": ["list of new questions raised by findings, 1-2 sentences each"],
     "sample_types": ["types of samples used (human/mouse/other)"],

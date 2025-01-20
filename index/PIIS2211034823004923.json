@@ -1,0 +1,46 @@
+{
+  "title": "Smoking affects epigenetic ageing of lung bronchoalveolar lavage cells in Multiple Sclerosis",
+  "authors": [
+    "Dennis Klose",
+    "Maria Needhamsen",
+    "Mikael V. Ringh",
+    "Michael Hagemann-Jensen",
+    "Maja Jagodic",
+    "Lara Kular"
+  ],
+  "affiliations": [
+    "Department of Clinical Neuroscience, Karolinska Institutet, Center for Molecular Medicine, Karolinska University Hospital, 171 76 Stockholm, Sweden",
+    "Department of Medicine, Solna, Karolinska Institutet, 171 76 Stockholm, Sweden"
+  ],
+  "background": "Cigarette smoking and lung inflammation are implicated in Multiple Sclerosis (MS) susceptibility and progression, and epigenetic age acceleration has been observed in blood and glial cells of pwMS.",
+  "hypotheses": [
+    "Biological ageing in lung immune cells is affected by MS and smoking."
+  ],
+  "major_findings": [
+    "Five epigenetic clocks showed significant differences between pwMS and HC, with four showing a smoking effect irrespective of MS status.",
+    "AltumAge clock revealed that, without smoking, pwMS BAL cells were epigenetically older than HC BAL cells, and smoking further affected epigenetic ageing in pwMS BAL cells.",
+    "Differential methylation of 114 AltumAge-CpGs was observed between pwMS smokers and non-smokers, affecting genes involved in innate immune processes.",
+    "These DNA methylation changes translated into transcriptional differences in BAL cells between pwMS smokers and non-smokers."
+  ],
+  "null_findings": [
+    "Blood-derived monocytes did not show MS-specific or smoking-related AltumAge differences."
+  ],
+  "new_open_questions": [
+    "The varying performance of epigenetic clocks in estimating DNAm age requires further investigation, potentially considering the distribution of distinct BAL myeloid cell types and other confounders.",
+    "The functional impact of the identified 114 AltumAge-CpGs and their associated genes on innate immune processes and cell motility in the context of MS and smoking needs further exploration."
+  ],
+  "sample_types": [
+    "Human bronchoalveolar lavage (BAL) cells, human blood monocytes"
+  ],
+  "methods": [
+    "DNA methylation analysis using eight DNA methylation-based clocks and two RNA-based clocks",
+    "RNA sequencing",
+    "Statistical analysis including MANCOVA, linear models, and gene ontology analysis"
+  ],
+  "journal": "Multiple Sclerosis and Related Disorders",
+  "date_received": "28-04-2023",
+  "date_revised": "18-06-2023",
+  "date_accepted": "02-09-2023",
+  "date_published": "09-09-2023",
+  "analyzed": "27-12-2024 13:34:39"
+}
